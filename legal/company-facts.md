@@ -4,7 +4,7 @@ Running record of every answer given during the legal-document interview. Read t
 
 Legend: `[CONFIRMED]` answered by founder · `[DEFAULT ACCEPTED]` founder said "yes" to a suggested default · `[TBD — needs attorney/founder decision]` unknown
 
-Last updated: 2026-10-20 (Batches 1–2 recorded)
+Last updated: 2026-10-20 (Batches 1–3 recorded)
 
 ---
 
@@ -62,25 +62,25 @@ Last updated: 2026-10-20 (Batches 1–2 recorded)
 
 | Fact | Answer | Status |
 |---|---|---|
-| Minimum age (template default: 18) | | |
-| Account creation: email/password, social login (which providers), SSO? | | |
-| Can users delete their own account in-app? How? | | |
-| Multiple users per account / team or organization accounts? | | |
-| Specific prohibited uses beyond template defaults (scraping, resale, competing product)? | | |
-| Suspension/termination policy: at will, or with notice/cure? | | |
+| Minimum age (template default: 18) | 18+ (business users) | [CONFIRMED] |
+| Account creation: email/password, social login (which providers), SSO? | Email/password plus Google, Microsoft, and Apple sign-in. No SSO | [CONFIRMED] |
+| Can users delete their own account in-app? How? | Two account types. (1) User account: deletable from user settings; on deletion the user chooses to delete the organizations they own or transfer them to other users. (2) Organization (tenant, the paid unit): only the admin/creator can delete; deletion passes a financial check first, the admin is warned, and can request a data export (emailed as an attachment). Organizations whose subscription has been cancelled and not renewed for 365 days are deleted automatically | [CONFIRMED] |
+| Multiple users per account / team or organization accounts? | Each user is independent; a user creates an Organization (tenant) that is paid for; the creator is admin by default and can invite other users to join | [CONFIRMED] |
+| Specific prohibited uses beyond template defaults (scraping, resale, competing product)? | Template restrictions plus payments-specific prohibitions: no unlawful or card-network-prohibited / high-risk activity, no fraudulent or sham invoices, no use of payment links for transactions that are not bona fide sales by the merchant, no sharing of credentials, no circumventing fees, no malware or interference, no sanctions/AML violations. Founder asked for hints if defaults miss something | [DEFAULT ACCEPTED] |
+| Suspension/termination policy: at will, or with notice/cure? | At-will during trial; for paying customers, notice and opportunity to cure for breach, immediate for fraud, abuse, non-payment, or legal risk. Chexbill Payments access is also subject to the Fiserv/CardConnect merchant agreement and card-network rules | [DEFAULT ACCEPTED] |
 
 ## 4. Data collected, processors & retention
 
 | Fact | Answer | Status |
 |---|---|---|
 | Categories of personal data collected (from template list: contact, profile, communications, transactional, marketing, user content, payment, device, online activity, location, etc.) | | |
-| Any sensitive data (government ID, health, biometric, precise geolocation, financial account numbers)? | | |
+| Any sensitive data (government ID, health, biometric, precise geolocation, financial account numbers)? | Yes: SSN/EIN, date of birth, and bank account numbers collected from merchants onboarding to Chexbill Payments and stored by Chexbill; vendors' TINs for 1099 filing; customers' bank transactions via Plaid. No card numbers ever touch Chexbill servers (Fiserv/CardConnect hosted tokenizer). No health, biometric, or precise geolocation data | [CONFIRMED] |
 | Data collected from third-party sources (social login, data providers, partners)? | | |
 | Hosting provider and region | | |
 | Full subprocessor / service-provider list (name, location, purpose) | | |
 | Email delivery provider | | |
 | Customer support / chat provider | | |
-| AI / LLM providers and whether they may train on user data | Google Gemini API (receipt/bill extraction). Training/retention terms depend on API tier: TBD | [TBD — needs attorney/founder decision] |
+| AI / LLM providers and whether they may train on user data | Google Gemini API, paid tier (receipt/bill extraction). Paid-tier terms do not use prompts to improve Google's models; attorney to confirm current Google terms at publication | [CONFIRMED] |
 | Do you train your own models on user data (even aggregated/de-identified)? Opt-out mechanism? | | |
 | Retention period(s) for account data, logs, backups, after account closure | | |
 | Deletion process on account closure | | |
@@ -116,7 +116,7 @@ Last updated: 2026-10-20 (Batches 1–2 recorded)
 
 | Fact | Answer | Status |
 |---|---|---|
-| Payment processor(s) (e.g. Stripe, Paddle, PayPal) and whether any card data touches your servers | | |
+| Payment processor(s) (e.g. Stripe, Paddle, PayPal) and whether any card data touches your servers | Chexbill Payments is powered by CardConnect / Fiserv (First Data Merchant Services LLC, KeyBank as member bank). Merchants sign Fiserv's Merchant Processing Application and Agreement + Program Guide directly (3-year initial term, early-termination fee, personal guarantee). Chexbill's role: ISV / referral partner (sub-rep under an ISR); sets pricing per its Schedule A and charges its own processing markup plus other fees (annual fee, PCI fees, CardPointe platform fee, terminal rentals, ACH monthly fee, etc.). Card data never touches Chexbill servers (hosted tokenizer). Processor for Chexbill's own subscription fees: TBD (batch 6) | [CONFIRMED] |
 | Billing cycle and auto-renewal | | |
 | Refund policy (none / pro-rata / X-day money-back) | | |
 | Cancellation mechanics and effect (end of period vs immediate) | | |
@@ -164,4 +164,7 @@ Last updated: 2026-10-20 (Batches 1–2 recorded)
 - Plaid: bank credentials are entered with Plaid, not Chexbill; Plaid's End User Privacy Policy must be referenced in the privacy policy (Plaid requires this disclosure).
 - Google Gemini API: confirm API tier/terms so the privacy policy can truthfully say whether the provider may use uploaded receipts for training.
 - Invoice payors (customers' clients) are not account holders; privacy policy and Terms must cover them.
+- Chexbill Payments fee schedule (Schedule A with CardConnect, provided by founder as screenshots) lists Chexbill's own fees to merchants (annual fee $25, PCI annual $25, PCI non-compliance $10/mo, CardPointe platform $15/mo, Fiserv ACH $10/mo, terminal rentals, bps markups, per-item auth fees). The Terms should state that Chexbill Payments fees are disclosed in the merchant's pricing schedule/application and may change on notice. Attorney to confirm whether Chexbill may bill these itself or only via the processor statement, and whether the 3-year Fiserv term / early-termination fee must be flagged in Chexbill's own Terms.
+- Reference documents provided by founder (not committed to the repo): Fiserv "Merchant Processing Application and Agreement" (GenCP-KB-2910_MPA_08.28.26) and "Program Terms and Conditions (Program Guide)" (GenCP-KB-2907_PG_07.01.26); Schedule A screenshots.
+- Automatic deletion of organizations 365 days after a lapsed subscription must be disclosed in the Terms and reconciled with record-retention duties (tax, payments, 1099).
 
