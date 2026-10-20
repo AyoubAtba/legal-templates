@@ -4,7 +4,7 @@ Running record of every answer given during the legal-document interview. Read t
 
 Legend: `[CONFIRMED]` answered by founder · `[DEFAULT ACCEPTED]` founder said "yes" to a suggested default · `[TBD — needs attorney/founder decision]` unknown
 
-Last updated: 2026-10-20 (Batches 1–3 recorded)
+Last updated: 2026-10-20 (Batches 1–4 recorded)
 
 ---
 
@@ -73,29 +73,29 @@ Last updated: 2026-10-20 (Batches 1–3 recorded)
 
 | Fact | Answer | Status |
 |---|---|---|
-| Categories of personal data collected (from template list: contact, profile, communications, transactional, marketing, user content, payment, device, online activity, location, etc.) | | |
+| Categories of personal data collected (from template list: contact, profile, communications, transactional, marketing, user content, payment, device, online activity, location, etc.) | Contact; Profile (account, organization); Communications (support via Zendesk); Transactional (subscriptions, invoices, payments); Marketing preferences; User content and input data (invoices, estimates, bills, expenses, uploaded receipt/bill images, reports); Financial data (bank transactions via Plaid; bank account numbers and KYC for merchant onboarding); Government-issued ID numbers (SSN/EIN/TIN for merchant onboarding and 1099 filing); Payment data (handled by CardConnect/Fiserv tokenizer, not stored by Chexbill); Device and Online activity data (PostHog, Sentry, logs). Also personal data of customers' clients and vendors entered by customers, and of invoice payors. Dropped: Demographic, Relationship, Promotion, precise geolocation | [CONFIRMED] |
 | Any sensitive data (government ID, health, biometric, precise geolocation, financial account numbers)? | Yes: SSN/EIN, date of birth, and bank account numbers collected from merchants onboarding to Chexbill Payments and stored by Chexbill; vendors' TINs for 1099 filing; customers' bank transactions via Plaid. No card numbers ever touch Chexbill servers (Fiserv/CardConnect hosted tokenizer). No health, biometric, or precise geolocation data | [CONFIRMED] |
-| Data collected from third-party sources (social login, data providers, partners)? | | |
-| Hosting provider and region | | |
-| Full subprocessor / service-provider list (name, location, purpose) | | |
-| Email delivery provider | | |
-| Customer support / chat provider | | |
+| Data collected from third-party sources (social login, data providers, partners)? | Social login profile data (Google, Microsoft, Apple via Clerk); bank account and transaction data from Plaid (with user authorization); currency rates from currencyapi.com (no personal data). No data brokers or marketing partners | [CONFIRMED] |
+| Hosting provider and region | Vercel (web app hosting); Supabase (database and bucket storage), US region | [CONFIRMED] |
+| Full subprocessor / service-provider list (name, location, purpose) | Vercel (hosting, US); Supabase (database/storage, US region); Upstash (queueing and Redis cache); Clerk (authentication); Brevo (email delivery); Zendesk (customer support); Sentry (error monitoring); PostHog (product analytics); Google Gemini API, paid tier (receipt/bill data extraction); Plaid (bank connections/transactions); CardConnect / Fiserv (payment processing and merchant underwriting/KYC); TaxBandits (1099 filing); currencyapi.com (exchange rates, no personal data). Entity countries/locations to be confirmed for the DPA Annex (all US-headquartered vendors; Brevo is France-headquartered with US operations) | [CONFIRMED] |
+| Email delivery provider | Brevo | [CONFIRMED] |
+| Customer support / chat provider | Zendesk | [CONFIRMED] |
 | AI / LLM providers and whether they may train on user data | Google Gemini API, paid tier (receipt/bill extraction). Paid-tier terms do not use prompts to improve Google's models; attorney to confirm current Google terms at publication | [CONFIRMED] |
-| Do you train your own models on user data (even aggregated/de-identified)? Opt-out mechanism? | | |
-| Retention period(s) for account data, logs, backups, after account closure | | |
-| Deletion process on account closure | | |
-| Do you share data with advertising partners / "sell" or "share" under CCPA? | | |
-| Any profiling or automated decision-making with significant effects? | | |
-| Identity verification process for privacy requests | | |
-| Privacy request intake: webform URL, email, toll-free number? | | |
-| Honor Global Privacy Control (GPC) signals? (CCPA requires it) | | |
-| Respond to Do Not Track? (template default: no) | | |
-| Security certifications (SOC 2, ISO 27001)? | | |
-| Data Protection Officer appointed? | | |
-| EU representative / UK representative appointed (Art. 27 GDPR)? | | |
-| Cross-border transfer mechanism (SCCs, UK Addendum, DPF certification)? | | |
-| Previous privacy policy version link to keep? | | |
-| Printable/PDF copy of the privacy policy offered? | | |
+| Do you train your own models on user data (even aggregated/de-identified)? Opt-out mechanism? | May use aggregated/de-identified data to improve the Service; no training on identifiable data; no opt-out needed (privacy policy "Training data" opt-out paragraph dropped) | [CONFIRMED] |
+| Retention period(s) for account data, logs, backups, after account closure | (a) Active account/organization data: for as long as the account or organization is active. (b) Organization deletion: on explicit deletion the admin is prompted to export; organizations with no active subscription for 365 days are deleted automatically, with notice 2 months before. (c) Server logs: 365 days. (d) Merchant onboarding (KYC) data: collected and transmitted to CardConnect; not retained by Chexbill after boarding (founder to confirm; see open items). (e) 1099 records: same as organization policy (attorney to confirm against IRS record-keeping requirements). Backup retention window: TBD | [CONFIRMED] |
+| Deletion process on account closure | See §3 (user vs organization deletion; export offered; financial check before organization deletion) | [CONFIRMED] |
+| Do you share data with advertising partners / "sell" or "share" under CCPA? | No sale, no sharing for targeted advertising, no data brokers, no affiliates. State notice uses the "we do not sell / do not process for targeted advertising" alternatives; interest-based advertising sections dropped (subject to batch 5 answers on pixels) | [CONFIRMED] |
+| Any profiling or automated decision-making with significant effects? | None by Chexbill (merchant underwriting decisions are made by CardConnect/Fiserv, not Chexbill) | [DEFAULT ACCEPTED] |
+| Identity verification process for privacy requests | Match the request to the email address on the account; request additional information where needed | [DEFAULT ACCEPTED] |
+| Privacy request intake: webform URL, email, toll-free number? | privacy@chexbill.com and in-app account settings; no toll-free number | [DEFAULT ACCEPTED] |
+| Honor Global Privacy Control (GPC) signals? (CCPA requires it) | Yes | [CONFIRMED] |
+| Respond to Do Not Track? (template default: no) | No (template default) | [DEFAULT ACCEPTED] |
+| Security certifications (SOC 2, ISO 27001)? | None at this time. All DPA Annex security measures (encryption in transit/at rest, MFA, role-based access, logging, vulnerability management, backups/DR) confirmed true | [DEFAULT ACCEPTED] |
+| Data Protection Officer appointed? | No (not required; US only) | [CONFIRMED] |
+| EU representative / UK representative appointed (Art. 27 GDPR)? | Not applicable (US only) | [CONFIRMED] |
+| Cross-border transfer mechanism (SCCs, UK Addendum, DPF certification)? | Not applicable (US only; data processed in the US) | [CONFIRMED] |
+| Previous privacy policy version link to keep? | No (first publication); line dropped | [DEFAULT ACCEPTED] |
+| Printable/PDF copy of the privacy policy offered? | No; line dropped | [DEFAULT ACCEPTED] |
 
 ## 5. Cookies & analytics
 
@@ -166,5 +166,7 @@ Last updated: 2026-10-20 (Batches 1–3 recorded)
 - Invoice payors (customers' clients) are not account holders; privacy policy and Terms must cover them.
 - Chexbill Payments fee schedule (Schedule A with CardConnect, provided by founder as screenshots) lists Chexbill's own fees to merchants (annual fee $25, PCI annual $25, PCI non-compliance $10/mo, CardPointe platform $15/mo, Fiserv ACH $10/mo, terminal rentals, bps markups, per-item auth fees). The Terms should state that Chexbill Payments fees are disclosed in the merchant's pricing schedule/application and may change on notice. Attorney to confirm whether Chexbill may bill these itself or only via the processor statement, and whether the 3-year Fiserv term / early-termination fee must be flagged in Chexbill's own Terms.
 - Reference documents provided by founder (not committed to the repo): Fiserv "Merchant Processing Application and Agreement" (GenCP-KB-2910_MPA_08.28.26) and "Program Terms and Conditions (Program Guide)" (GenCP-KB-2907_PG_07.01.26); Schedule A screenshots.
-- Automatic deletion of organizations 365 days after a lapsed subscription must be disclosed in the Terms and reconciled with record-retention duties (tax, payments, 1099).
+- Automatic deletion of organizations 365 days after a lapsed subscription (with 2 months' notice) must be disclosed in the Terms and reconciled with record-retention duties (tax, payments, 1099). IRS guidance generally requires filers to keep copies of information returns for at least 4 years; attorney to confirm what Chexbill (vs. TaxBandits or the customer) must retain.
+- Merchant KYC data: batch 3 said SSN/EIN, DOB, and bank account numbers are collected and stored; batch 4 said Chexbill holds no merchant data after boarding. Recorded as "collected and transmitted, not retained after boarding" pending founder confirmation. If any copy is retained (even in logs, Zendesk tickets, or Supabase), the privacy policy must say so and retention must be defined.
+- Backup retention window after deletion (Supabase point-in-time backups) is undefined; needed for the retention section and DPA §9.
 
