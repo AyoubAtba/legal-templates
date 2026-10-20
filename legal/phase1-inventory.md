@@ -69,64 +69,77 @@ Source: `templates/` (General Legal, CC0 1.0). All 12 templates read in full on 
 
 ## 5. Things that look wrong, outdated, or contradictory in the templates
 
-Flagged now so they are not silently worked around. Items marked **(conversion)** are artifacts of the .docx → markdown conversion; the .docx originals in `docx-originals/` may be clean.
+Flagged now so they are not silently worked around. Items marked **(conversion)** are artifacts of the .docx → markdown conversion. A paragraph-level comparison against `docx-originals/` (2026-10-20) shows the markdown is textually complete for 11 of 12 templates; the Advisor Agreement lost five blocks that sat in Word content controls. All hyperlink URLs were dropped by the conversion but are recoverable from the .docx files and are listed in the checklist.
 
 **Terms of Use**
 - §2.1 license is for "personal, non-commercial purposes" and §2.4 disclaims any support obligation. Both contradict a paid B2B or prosumer SaaS. The template has **no** subscription, fee, auto-renewal, refund, or cancellation clauses at all; those will have to be sourced from the MSA's fee clauses or flagged for the attorney.
-- Two sections are numbered "11" (Option A and Option B); intentional, pick one.
+- Two sections are numbered "11" (Option A and Option B); intentional, pick one. The Option B heading carries a drafting note with a link to decisionlayer.ai and a stray `*.*` markup artifact; both must be deleted.
+- §11.2 and §11.10 notice addresses hardcode ", California" outside the brackets.
 - Option A Streamlined/Comprehensive thresholds and batch-arbitration mechanics are JAMS-specific; Option B overrides governing law to New York regardless of §10.2.
 - §9.6 drafting note lists states "as of 2026" and tells you to add more; the list is already incomplete (e.g. Delaware, New Hampshire, New Jersey, Minnesota, Maryland have comprehensive laws) — attorney item.
 - §10.7 copyright line reads "202[_][Company]" — missing space (conversion).
 
 **Privacy Policies (both)**
 - Header row of the **U.S.-only** template says "TEMPLATE PRIVACY POLICY AND COOKIE NOTICE (GDPR compliant for U.S. Company with no 'establishment' in the EEA or UK)" — copy-pasted from the GDPR version; mislabeled.
-- Lost hyperlinks (conversion): "visit ." / "here: ." for the cookie-info site, Google Analytics opt-out, Do Not Track info, GPC info, NAI/DAA/AppChoices (Cookie Notice), EEA regulator list, ICO website, PayPal privacy policy. URLs must be supplied.
+- Lost hyperlinks (conversion): Google Analytics opt-out, Do Not Track info, GPC info, PayPal privacy policy, previous-version and printable-copy links, account-closure link; GDPR version also EU GDPR / UK GDPR citations, EEA regulator list, ICO website, and the in-page link to the European notice. All recovered from the .docx except the company-specific ones.
 - List numbering is broken throughout (e.g. "1. Contact data, 2. Demographic data" then unnumbered items; "## Customers" as a lone heading) (conversion).
 - "Index" block lists four items only and is not a real table of contents (conversion).
-- GDPR Controller paragraph is garbled: "(i.e., the and the so-called ' (as and where applicable, the "GDPR"))" — text missing (likely "the EU GDPR and the so-called 'UK GDPR'").
-- GDPR lawful-basis table has **two rows titled "Events, promotions and contests"**; the second describes corporate-transaction sharing and is mislabeled.
+- GDPR Controller paragraph is garbled: "(i.e., the and the so-called ' (as and where applicable, the "GDPR"))". The .docx reads "the EU GDPR and the so-called 'UK GDPR'" with both terms hyperlinked; the converter dropped hyperlinked text.
+- GDPR lawful-basis table has two rows titled "Events, promotions and contests"; the first is correct, the second describes corporate-transaction sharing and is mislabeled. The table also cites purposes ("Security", "Research and development") and a category ("Data from Third Party Services") that do not appear in the body.
+- "Direct marketing" cross-references an "Opt-out of marketing section" that is actually titled "Opt-out of communications".
+- The fixed sentence "While we do not sell personal information for money, like many companies, we use services that help deliver interest-based ads to you" contradicts the "[We do not process… targeted advertising]" alternative and must be rewritten for a product without ad tech.
 - "Exercising other state privacy rights" line has placeholders without `<mark>` tags: `[link to webform]`, `[1-XXX-XXX-XXXX]`, `[email for data requests]`.
 - Transfer section says the U.S. lacks an adequacy decision but does not mention the EU-U.S. Data Privacy Framework (in force since July 2023) — attorney should confirm which mechanism to cite.
 - Children section says "not intended for anyone under 18" while the State notice offers a 13–15 opt-in alternative; pick consistently.
 
 **Cookie Notice**
 - Flash LSO paragraph is obsolete (Flash reached end-of-life December 2020). Recommend dropping.
-- Session-replay paragraph names FullStory and has an empty opt-out link "at .]".
+- Session-replay paragraph names FullStory, uses the undefined term "the Services" (the notice defines "Sites"/"App"), and has an empty opt-out link "at .]" (docx: https://www.fullstory.com/optout/).
 - "[ADD]" cells in the cookie table are not `<mark>`-tagged but are placeholders.
 - The "For more information about cookies… visit ." paragraph appears twice (once in §2, once after the list) (likely conversion duplication).
 - "Last modified [INSERT DATE]" is at the bottom while the privacy policies put the date at the top.
 
 **DPA (US) and DPA (Global)**
-- Section numbering was lost (conversion). The body cross-references "Section 4(a)", "Sections 9(b)–(d)", "Section 6(b)", "Section 7", "Section 7(d)", "Section 8", "Section 11(d)", "Paragraph 3.4 of Annex 2" but no headings are numbered. Numbering must be restored in output.
+- Section numbering was lost (conversion). The body cross-references "Section 4(a)", "Sections 9(b)–(d)", "Section 6(b)", "Section 7", "Section 7(d)", "Section 8", "Section 11(d)", "Paragraph 3.4 of Annex 2" but no headings are numbered. Working numbering (from those references): 1 Definitions · 2 Duration and Scope · 3 Customer Instructions · 4 Security (incl. (d)–(e) Customer's Security Responsibilities and Assessment) · 5 Data Subject Rights · 6 Customer Responsibilities · 7 Subprocessors · 8 Audits · 9 Return and Deletion · 10 AI and Automated Processing · 11 Miscellaneous. Global version also has a stray "(a)" label on the first Customer Responsibilities paragraph only, "3.RESTRICTED TRANSFERS" missing a space, and mixes "Section" and "Paragraph" for the same references.
 - "Annex 4 of this DPA/at [WEBSITE]" (US) and "Annex 5 … /at [WEBSITE]" (Global) are untagged either/or choices.
 - Global §7(b) says "in accordance with this Section 7" while US says "this Section" — harmless but shows the Global version is the later edit.
+- Return/deletion differs: US §9(b) lets Provider choose return vs deletion; Global §9(b) lets Customer elect. Both default to Provider's option after the 30-day window.
+- Precedence conflict with the MSA: MSA §2.5 says the more protective provision governs; the DPA says the DPA governs.
 - Restricted Data warranty excludes "personal data of children under 16" — if your product is used by schools or consumer-facing customers this conflicts.
 - Global Annex 1 "Role: Processor (or Subprocessor…)" and "Controller or Processor" are fixed text, fine; but the signature block says "agree to be legally bound by this Agreement" (US says "this DPA").
 
 **Master Services Agreement**
 - Product-specific definitions baked in: "Platform means Company's platform designed to test and validate Customer's generative AI applications", "Generic Judges", "Judges", "Customer Environment", on-premise installation, source-code delivery, "Updates… to Company's on-premise customers". Not a hosted-SaaS MSA.
-- Section numbering lost (conversion); body cites "Section 3.3", "Sections 3.1 and/or 6.4", "Section 8" (confidentiality), "Section 2.5".
+- Section numbering lost (conversion); body cites "Section 3.3", "Sections 3.1 and/or 6.4", "Section 8" (confidentiality), "Section 2.5". Working numbering consistent with those references: 1 Definitions · 2 Provision of Services · 3 Customer Restrictions · 4 Ownership · 5 Fees · 6 Warranties · 7 Limitation of Liability · 8 Confidentiality · 9 Indemnification · 10 Term and Termination · 11 Miscellaneous. Under that scheme "6.4" (Customer Warranty) would be §6.3; verify after renumbering.
+- §9.3(a) inverts the notice duty ("the indemnifying party shall promptly notify the indemnified party"); the precedence rule is stated twice (§2.1 and §11.11); §11.2 uses an undefined term "Arbitration Agreement"; §10.5 survival list omits Ownership (§4) and Fees (§5); §6 contains no performance warranty despite §6.2's "except for the limited warranties set forth in this section".
+- Exhibit A lacks fields the body assumes (Customer Environment designation, support plan, notices e-mail) and has a misplaced "Signature Block" heading above the billing block. Typos: "here by", "damages costs", "This term of this Agreement".
 - §9.1 says "procure for **Client**" (should be Customer). §9.2(b) "any agreement between Customer and a Connected Account or Customer" is garbled.
-- §11.2 ("Termination if No Outstanding Orders") and Exhibit A ("Subscriptions are non-cancelable") are consistent, but Exhibit A's "Payment Term: Net 60" and "Billing Frequency: Monthly" conflict with §5.3 "ACH only" unless intended.
-- §12.6 "No Assignment" requires "prior written consent of **Company**" for *either* party (one-sided drafting; probably intentional but asymmetric).
+- §10.2 ("Termination if No Outstanding Orders") and Exhibit A ("Subscriptions are non-cancelable") are consistent, but Exhibit A's "Payment Term: Net 60" and "Billing Frequency: Monthly" conflict with §5.3 "ACH only" unless intended.
+- §11.6 "No Assignment" requires "prior written consent of **Company**" for *either* party (one-sided drafting; probably intentional but asymmetric).
 - Exhibit B rider is a bare placeholder.
 
 **NDAs**
-- Mutual NDA §9 reads "will not reproduce the Confidential Information … in any form **as** required to accomplish the intent" — should read "except as required" (a prior commit tried to fix wording here; it still reads inverted).
-- Mutual NDA effective date "__________, 2026__" and "a Delaware corporation" hardcoded.
-- One-way NDA §1 party name placeholder is `[___]` with a `<mark>` only around the underscores.
+- Mutual NDA §8 reads "will not reproduce the Confidential Information … in any form **as** required to accomplish the intent" — should read "except as required" (a prior commit tried to fix wording here; it still reads inverted).
+- Mutual NDA §3(b) and §3(c) read "…or any of its Representatives and breach of this Agreement" — should be "and without breach" (compare one-way NDA §3(b)).
+- Mutual NDA numbering restarts twice in the markdown and §3's (a)–(e) became 1–5 while the text cites "clauses (a) and (b)"; "[Remainder of page…]" and the execution sentence are numbered as sections; stray "*provided that *" italics; signature block email placeholder rendered as "[]" (docx: `[_______]`) and one of two address lines dropped.
+- Mutual NDA effective date "__________, 2026__" and "a Delaware corporation" hardcoded; life-science language ("compositions of matter", "assays", "regulatory or marketing approval") throughout.
+- One-way NDA §1 party name placeholder is `[___]` with a `<mark>` only around the underscores; its signature block has no date, address, or email lines although the Effective Date is "the last date signed below" and §10 sends notices "to the addresses below".
 
 **Advisor Agreement**
-- Missing preamble: no title, parties, Effective Date definition, signature block. Starts at "1. Services". §2 and §5 reference an "Effective Date" that is never defined. Treat as incomplete.
+- The markdown dropped five blocks that exist in the .docx (inside Word content controls): the preamble ("This Advisor Agreement… between [Company]… and the advisor named on the signature page… as of ________________ ('Effective Date')"), §5 **Solicitation** (one-year non-solicit of Company employees), §9 **Miscellaneous** (assignment personal to Advisor, Company free assignment, injunctive relief for §§3–5, entire agreement, counterparts/ESIGN, severability, **Delaware law and exclusive Delaware venue**, attorneys' fees, notice mechanics), "[Remainder of page intentionally left blank]", the execution sentence, and both signature blocks (with Phone Number fields). Because of the drop, the markdown's survival clause reads "Sections 2 through 7"; the original reads "2 through 9". The output will be rebuilt from the .docx text.
+- Stray empty `<mark> </mark>` after "[(provide dates of services)]" (conversion). References an option grant agreement and expense policy not in the repo.
 
 **BAA**
-- Cross-references "Section 4.1(c)", "4.9(b)", "Section 6.3" but headings are unnumbered (conversion).
-- §4.4 "Reporting" assumes Company processes no directly identifying information except device identifiers — a product-specific assumption that may be false for a SaaS.
+- Cross-references "Section 4.1(c)", "4.9(b)", "Section 6.3" but headings are unnumbered (conversion); Appendix A definitions are rendered as H1 headings. Working numbering: 4.1 Limitations · 4.2 Specific Use · 4.3 Safeguards · 4.4 Secretary Audits · 4.5 Reporting · 4.6 Designated Record Set · 4.7 Requests · 4.8 Subcontractors · 4.9 Incidents.
+- §4.5 "Reporting" assumes Company processes no directly identifying information except device identifiers — a product-specific assumption that may be false for a SaaS.
+- "Services Agreement" is identified only as "the existing services agreement"; §7.3 inherits its indemnity and liability cap, so that agreement must contain them.
+- Signature block is mangled: `[LEGAL NAME OF CUSTOMER]` sits above the "Company" heading and there is one By/Printed Name/Title line for two parties.
 
 **Offer Letter**
-- References "Exhibit A: Employee Confidential Information and Inventions Assignment Agreement" which is not in the repo.
-- JAMS rules link lost ("currently at )") (conversion).
-- Hardcoded Pacific Time business hours and California-only carve-outs.
+- References "Exhibit A: Employee Confidential Information and Inventions Assignment Agreement", a "Company handbook", and "plan documents", none of which are in the repo.
+- JAMS rules link lost ("currently at )") (conversion); recovered: `http://www.jamsadr.com/rules-employment-arbitration/`.
+- Option A has no opt-out clause; Option B ¶10 does. Option B ¶8 "each party bears its own… arbitration costs" conflicts with Option A (Company pays JAMS fees) and with California's employer-pays rule for mandatory employment arbitration — attorney item.
+- Hardcoded Pacific Time business hours, no-accrual vacation policy, exempt classification, and California-only carve-outs. No Company address appears anywhere in the letter.
 
 **All templates**
 - Each carries a General Legal attribution footnote; CC0 permits removal, but the README asks that it be kept. Decision: keep it in the output documents (recommended) or drop.
