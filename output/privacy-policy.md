@@ -18,11 +18,10 @@ Effective as of October 20, 2026.
 8. Security
 9. International data transfer
 10. Your choices
-11. Children
-12. Other sites and services
-13. Changes to this Privacy Policy
-14. How to contact us
-15. State privacy rights notice
+11. Other sites and services
+12. Changes to this Privacy Policy
+13. How to contact us
+14. State privacy rights notice
 
 ## 1. Who we are and what this policy covers
 
@@ -189,22 +188,17 @@ In this section, we describe the rights and choices available to all users. User
 
 **Delete your content or close your account.** You can choose to delete certain content through your account. You can delete your user account from your account settings, and an organization's administrator can delete the organization from its settings. If you need help, contact us at support@chexbill.com.
 
-## 11. Children
-
-
-The Service is not intended for use by anyone under 18 years of age. If you are a parent or guardian of a child from whom you believe we have collected personal information in a manner prohibited by law, please contact us. If we learn that we have collected personal information through the Service from a child without the consent of the child's parent or guardian as required by law, we will comply with applicable legal requirements to delete the information.
-
-## 12. Other sites and services
+## 11. Other sites and services
 
 
 The Service may contain links to websites, mobile applications, and other online services operated by third parties. In addition, our content may be integrated into web pages or other online services that are not associated with us. These links and integrations are not an endorsement of, or representation that we are affiliated with, any third party. We do not control websites, mobile applications or online services operated by third parties, and we are not responsible for their actions. We encourage you to read the privacy policies of the other websites, mobile applications and online services you use.
 
-## 13. Changes to this Privacy Policy
+## 12. Changes to this Privacy Policy
 
 
 We reserve the right to modify this Privacy Policy at any time. If we make material changes to this Privacy Policy, we will notify you by updating the date of this Privacy Policy and posting it on the Service or other appropriate means. Any modifications to this Privacy Policy will be effective upon our posting the modified version (or as otherwise indicated at the time of posting). In all cases, your use of the Service after the effective date of any modified Privacy Policy indicates your acknowledging that the modified Privacy Policy applies to your interactions with the Service and our business.
 
-## 14. How to contact us
+## 13. How to contact us
 
 
 If you have questions about our practices or if you would like to exercise any privacy related right that may be available to you, please contact us via one of the methods listed below.
@@ -212,7 +206,7 @@ If you have questions about our practices or if you would like to exercise any p
 - **Email**: privacy@chexbill.com
 - **Mail**: Chexbill LLC, 257 Chapman Rd #208, Newark, DE 19702
 
-## 15. State privacy rights notice
+## 14. State privacy rights notice
 
 
 Except as otherwise provided, this section applies to residents of U.S. states to the extent they have privacy laws applicable to us that grant their residents the rights described below (collectively the "**State Privacy Laws**").
