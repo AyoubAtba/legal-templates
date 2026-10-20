@@ -28,13 +28,14 @@ Last updated: 2026-10-20 (Interview complete: batches 1–8 recorded)
 | Registered/mailing address (used for notices, California §1789.3 notice, arbitration opt-out) | 257 Chapman Rd #208, Newark, DE 19702 (New Castle County) | [CONFIRMED] |
 | Product domain(s) / website URL(s) the documents cover | chexbill.com (marketing website) and app.chexbill.com (the SaaS application) | [CONFIRMED] |
 | Any mobile app covered? | No | [CONFIRMED] |
+| Drafting decisions on defined terms | Public documents use "Service" (Terms, Privacy Policy) and "Sites" (Cookie Notice, per template); the DPA bridges "Services" to the Terms' "Service". The Terms call CardConnect/Fiserv the "Payment Processor" to avoid colliding with the DPA's statutory term "Processor". Merchant-application (KYC) data is handled as Chexbill's own data, outside the DPA and outside "Customer Data" | [CONFIRMED] |
 | General contact email | support@chexbill.com | [CONFIRMED] |
 | Privacy / data-requests contact email | privacy@chexbill.com | [CONFIRMED] |
 | Disputes / legal notices email | legal@chexbill.com | [CONFIRMED] |
 | Accessibility contact email or phone | support@chexbill.com | [DEFAULT ACCEPTED] |
 | Phone number (privacy policy lists one; optional) | None provided; phone contact lines will be omitted (email + web form remain) | [DEFAULT ACCEPTED] |
 | Where the company is headquartered / where data is processed | United States (Delaware address); hosted on Vercel and Supabase, US region | [CONFIRMED] |
-| Subsidiaries or affiliates to cover? | None; affiliates language will be dropped | [DEFAULT ACCEPTED] |
+| Subsidiaries or affiliates to cover? | None; "affiliates" dropped from the Privacy Policy sharing list. The DPA keeps the template's generic Affiliate definition and pre-authorization (boilerplate; harmless with no affiliates) | [DEFAULT ACCEPTED] |
 | Where are users located? (US only / US + EU/UK / global) | US only → use Privacy Policy (US) and DPA (US); no GDPR notice, no EU/UK representatives, no SCCs | [CONFIRMED] |
 | Any establishment (office, staff, entity) in the EU or UK? | None | [CONFIRMED] |
 | Any users in Switzerland? | No (US only) | [CONFIRMED] |

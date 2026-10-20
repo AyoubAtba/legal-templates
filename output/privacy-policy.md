@@ -6,9 +6,9 @@ Effective as of October 20, 2026.
 
 **California Notice at Collection / State Privacy Rights Notice**: See the State privacy rights notice section below for important information about your rights under applicable state privacy laws.
 
-Chexbill LLC ("**Chexbill**," "**we**," "**us**," or "**our**") provides a cloud-based accounting and point-of-sale solution for businesses that lets them issue invoices and estimates, track bills, capture expenses, reconcile bank transactions, generate reports and tax forms, and accept payments. This Privacy Policy describes how Chexbill processes personal information that we collect through our digital or online properties or services that link to this Privacy Policy (including, as applicable, our website at chexbill.com, our web application at app.chexbill.com, and our social media pages) as well as our marketing activities and other activities described in this Privacy Policy (collectively, the "**Service**").
+Chexbill LLC ("**Chexbill**," "**we**," "**us**," or "**our**") provides a cloud-based accounting and point-of-sale solution for businesses that lets them issue invoices and estimates, track bills, capture expenses, reconcile bank feeds, generate reports, and accept online and in-person payments through Chexbill Payments. This Privacy Policy describes how Chexbill processes personal information that we collect through our digital or online properties or services that link to this Privacy Policy (including, as applicable, our website at chexbill.com, our web application at app.chexbill.com, and our social media pages) as well as our marketing activities and other activities described in this Privacy Policy (collectively, the "**Service**").
 
-**Personal information we process on behalf of our customers.** Our customers use the Service to manage their own business records, which may include personal information about their customers, vendors, employees, and the people who pay their invoices. We process that information on our customers' behalf and under their instructions, as described in our Data Processing Addendum. If your personal information has been entered into the Service by one of our customers and you have questions about how it is used, please contact that customer directly. This Privacy Policy governs our own use of personal information; it does not govern how our customers use the information they collect.
+**Personal information we process on behalf of our customers.** Our customers use the Service to manage their own business records, which may include personal information about their customers, vendors, employees, and the people who pay their invoices. We process that information on our customers' behalf and under their instructions, as described in our Data Processing Addendum, available at https://chexbill.com/dpa. If your personal information has been entered into the Service by one of our customers and you have questions about how it is used, please contact that customer directly. This Privacy Policy governs our own use of personal information; it does not govern how our customers use the information they collect.
 
 ## Personal information we collect
 
@@ -24,6 +24,7 @@ Chexbill LLC ("**Chexbill**," "**we**," "**us**," or "**our**") provides a cloud
 - **Government-issued identification number data**, such as the Social Security number or employer identification number of business owners provided when applying for Chexbill Payments, and the taxpayer identification numbers of vendors entered for tax reporting purposes.
 - **Payment data** needed to complete transactions, including payment card information or bank account number. Payment card information is collected directly by our payment processor as described below.
 - **Chexbill Payments application data**, such as business ownership, date of birth, and banking information required by our payment processor to underwrite and verify a merchant account.
+- **Payor data.** If you pay an invoice through a payment link or payment page provided by the Service, we collect your name, email address, the invoice and payment details needed to record the payment, and device data described below. Your payment card information is collected directly by our payment processor.
 - **Other data** not specifically listed here, which we will use as described in this Privacy Policy or as otherwise disclosed at the time of collection.
 
 **Third-party sources.** We may combine personal information we receive from you with personal information falling within one of the categories identified above that we obtain from other sources, such as:
@@ -34,10 +35,10 @@ Chexbill LLC ("**Chexbill**," "**we**," "**us**," or "**our**") provides a cloud
 - **Service providers** that provide services on our behalf or help us operate the Service or our business.
 - **Business transaction partners.** We may receive personal information in connection with an actual or prospective business transaction. For example, we may receive your personal information from an entity we acquire or are acquired by, a successor, or assignee or any party involved in a business transaction such as a merger, acquisition, sale of assets, or similar transaction, and/or in the context of an insolvency, bankruptcy, or receivership.
 
-**Automatic data collection.** We, our service providers, and our business partners may automatically log information about you, your computer or mobile device, and your interaction over time with the Service, our communications and other online services, such as:
+**Automatic data collection.** We and our service providers may automatically log information about you, your computer or mobile device, and your interaction over time with the Service, our communications and other online services, such as:
 
 - **Device data**, such as your computer or mobile device's operating system type and version, manufacturer and model, browser type, screen resolution, device type (e.g., phone, tablet), IP address, unique identifiers, language settings, and general location information such as city, state or geographic area.
-- **Online activity data**, such as pages or screens you viewed, how long you spent on a page or screen, the website you visited before browsing to the Service, navigation paths between pages or screens, information about your activity on a page or screen, access times and duration of access, and whether you have opened our emails or clicked links within them.
+- **Online activity data**, such as pages or screens you viewed, how long you spent on a page or screen, the website you visited before browsing to the Service, navigation paths between pages or screens, information about your activity on a page or screen, access times and duration of access, and whether you have opened our marketing emails or clicked links within them.
 - **Communication interaction data** such as your interactions with our email or other communications (e.g., whether you open and/or forward emails) - we may do this through use of pixel tags (which are also known as clear GIFs), which may be embedded invisibly in our marketing emails.
 
 For more information concerning our automatic collection of data, please see the Tracking technologies section below.
@@ -46,7 +47,7 @@ For more information concerning our automatic collection of data, please see the
 
 ## Tracking & other technologies
 
-**Cookies and other technologies.** Some of our automatic data collection is facilitated by cookies and other technologies. For more information, see our Cookie Notice at https://chexbill.com/cookies. We will also store a record of your preferences in respect of the use of these technologies in connection with the Service.
+**Cookies and other technologies.** Some of our automatic data collection is facilitated by cookies and other technologies. For more information, see our Cookie Notice at https://chexbill.com/cookies.
 
 **Artificial intelligence ("AI") technologies.** The Service uses AI technology provided by Google (the Gemini API) to extract data from receipts, bills, and other documents that you upload. Google may access and process the content of the documents you upload to provide this feature. We use the paid tier of this service, under which Google does not use your inputs to train or improve its models. [ATTORNEY REVIEW: confirm against Google's current API terms at publication.]
 
@@ -72,7 +73,7 @@ We may use your personal information for the following purposes or as otherwise 
 - personalize your experience with the Service and our Service-related communications; and
 - remember your selections and preferences as you navigate webpages.
 
-**Service improvement and analytics.** We may use your personal information to analyze your usage of the Service, improve the Service, improve the rest of our business, help us understand user activity on the Service, including which pages are most and least visited and how visitors move around the Service, as well as user interactions with our emails, and to develop new products and services. For example, we use PostHog for this purpose. For more information on analytics, see our Cookie Notice.
+**Service improvement and analytics.** We may use your personal information to analyze your usage of the Service, improve the Service, improve the rest of our business, help us understand user activity on the Service, including which pages are most and least visited and how visitors move around the Service, as well as user interactions with our emails, and to develop new products and services. For example, we use PostHog for product analytics and Sentry for error monitoring. For more information on analytics, see our Cookie Notice.
 
 **Direct marketing.** We may send you direct marketing communications and may personalize these messages based on your needs and interests. You may opt out of our marketing communications as described in the Opt-out of communications section below.
 
@@ -97,7 +98,7 @@ We generally retain personal information to fulfill the purposes for which we co
 In particular:
 
 - **Account and organization data** is retained for as long as your account or organization is active. When an organization is deleted, we prompt its administrator to export its data first. An organization with no active subscription for 365 consecutive days may be deleted automatically; we notify the administrator by email at least 60 days beforehand. An organization created during a free trial that does not subscribe may be deleted 90 days after the trial ends.
-- **Chexbill Payments application data** (including Social Security numbers, employer identification numbers, dates of birth, and bank account numbers) is collected solely to transmit to our payment processor and is deleted from our systems once your application has been submitted to the processor.
+- **Chexbill Payments application data** (including Social Security numbers, employer identification numbers, dates of birth, and bank account numbers) is collected solely to transmit to our payment processor and is deleted from our systems once your onboarding with the processor is complete.
 - **Server logs** are retained for up to 365 days for debugging and monitoring the health of the Service.
 - **Backups.** Following deletion, copies of personal information may persist in our backups for a limited period before being overwritten. [TBD — needs attorney/founder decision: state the backup retention window.]
 - **Records required by law**, such as tax and payment records, may be retained for as long as applicable law requires. [ATTORNEY REVIEW: confirm retention required for information returns (e.g., Form 1099) filed through the Service against the automatic deletion schedule above.]
@@ -110,7 +111,7 @@ We may share your personal information with the following parties (or as otherwi
 
 **Service providers.** Third parties that provide services on our behalf or help us operate the Service or our business (such as hosting, database and file storage, information technology, authentication, customer support, AI providers such as Google for document data extraction, email delivery, error monitoring, tax-form filing, and website analytics).
 
-**Payment processors.** Any payment card information you use to make a purchase on the Service is collected and processed directly by our payment processor, CardConnect, LLC, a Fiserv company. CardConnect may use your payment data in accordance with its privacy policy, available at https://www.fiserv.com/en/about-fiserv/privacy-notice.html. If you apply for Chexbill Payments, we transmit your application data, including business ownership, identification, date of birth, and banking information, to CardConnect and its sponsor bank for underwriting, identity verification, and merchant account management. Payments you accept from your customers through the Service are processed by CardConnect under the merchant agreement between you and CardConnect.
+**Payment processors.** Any payment card information you use to make a purchase on the Service is collected and processed directly by our payment processor, CardConnect, LLC, a Fiserv company. CardConnect and Fiserv may use your payment data in accordance with the Fiserv privacy notice, available at https://www.fiserv.com/en/about-fiserv/privacy-notice.html. If you apply for Chexbill Payments, we transmit your application data, including business ownership, identification, date of birth, and banking information, to CardConnect and its sponsor bank for underwriting, identity verification, and merchant account management. Payments you accept from your customers through the Service are processed by CardConnect and its affiliates and sponsor bank under the merchant agreement between you and them.
 
 **Bank-connection services.** If you connect a financial account to the Service, we share the information needed to establish and maintain the connection with Plaid, which handles your information in accordance with the Plaid End User Privacy Policy.
 
@@ -146,7 +147,7 @@ In this section, we describe the rights and choices available to all users. User
 
 **Connected financial accounts.** You can disconnect a financial account from the Service at any time in your organization's settings. Disconnecting stops future retrieval of transaction data but does not delete data already imported into your organization's records.
 
-**Delete your content or close your account.** You can choose to delete certain content through your account. You can delete your user account from your account settings, and an organization's administrator can delete the organization from its settings. If you need help, contact us at privacy@chexbill.com.
+**Delete your content or close your account.** You can choose to delete certain content through your account. You can delete your user account from your account settings, and an organization's administrator can delete the organization from its settings. If you need help, contact us at support@chexbill.com.
 
 ## Other sites and services
 
