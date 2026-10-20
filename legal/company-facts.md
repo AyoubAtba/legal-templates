@@ -4,7 +4,7 @@ Running record of every answer given during the legal-document interview. Read t
 
 Legend: `[CONFIRMED]` answered by founder · `[DEFAULT ACCEPTED]` founder said "yes" to a suggested default · `[TBD — needs attorney/founder decision]` unknown
 
-Last updated: 2026-10-20 (Batches 1–5 recorded)
+Last updated: 2026-10-20 (Batches 1–6 recorded, except Q8 on Chexbill Payments fee mechanics)
 
 ---
 
@@ -49,7 +49,7 @@ Last updated: 2026-10-20 (Batches 1–5 recorded)
 | One-sentence description of the business/product (used verbatim in Privacy Policy) | Cloud-based accounting and point-of-sale solution for businesses (comparable to QuickBooks): issue invoices and estimates, track bills, capture expenses, generate reports, bank-feed reconciliation, and online/in-person payment acceptance ("Chexbill Payments") | [CONFIRMED] |
 | Audience: consumers (B2C), businesses (B2B), or both | B2B (businesses, incl. sole proprietors). Non-account "payors" (the customer's clients) also interact via invoice payment links | [CONFIRMED] |
 | Self-serve signup vs. sales-led contracts | Self-serve click-through only → no MSA/Order Form; fee terms go into the Terms of Service | [CONFIRMED] |
-| Free tier / free trial? Length and terms | 14-day free trial | [CONFIRMED] |
+| Free tier / free trial? Length and terms | 14-day free trial; no card required; user picks a plan at trial end. Trial-only organizations that never subscribe are deleted after 90 days (paid organizations: 365 days after lapse) | [CONFIRMED] |
 | Paid plans: subscription (monthly/annual), usage-based, one-time? | Monthly and yearly subscriptions, auto-renewing. Payment-processing fees for Chexbill Payments: TBD (batch 6) | [CONFIRMED] |
 | Is use "personal, non-commercial" (ToS template default) or commercial/business use? | Internal business use (B2B) → ToS license must be rewritten from "personal, non-commercial" | [CONFIRMED] |
 | Any AI / generative features? Which model providers? | Yes: Google Gemini API used to extract data from uploaded receipts and bills. Whether the paid/no-training API tier is used: TBD | [CONFIRMED] |
@@ -116,15 +116,15 @@ Last updated: 2026-10-20 (Batches 1–5 recorded)
 
 | Fact | Answer | Status |
 |---|---|---|
-| Payment processor(s) (e.g. Stripe, Paddle, PayPal) and whether any card data touches your servers | Chexbill Payments is powered by CardConnect / Fiserv (First Data Merchant Services LLC, KeyBank as member bank). Merchants sign Fiserv's Merchant Processing Application and Agreement + Program Guide directly (3-year initial term, early-termination fee, personal guarantee). Chexbill's role: ISV / referral partner (sub-rep under an ISR); sets pricing per its Schedule A and charges its own processing markup plus other fees (annual fee, PCI fees, CardPointe platform fee, terminal rentals, ACH monthly fee, etc.). Card data never touches Chexbill servers (hosted tokenizer). Processor for Chexbill's own subscription fees: TBD (batch 6) | [CONFIRMED] |
-| Billing cycle and auto-renewal | | |
-| Refund policy (none / pro-rata / X-day money-back) | | |
-| Cancellation mechanics and effect (end of period vs immediate) | | |
-| Price-change notice period | | |
-| Late payment / failed payment handling (suspension, interest) | | |
-| Taxes: exclusive of tax? Who collects VAT/sales tax? | | |
-| Currency | | |
-| Invoiced / enterprise terms (Net days, ACH/wire) if B2B | | |
+| Payment processor(s) (e.g. Stripe, Paddle, PayPal) and whether any card data touches your servers | Chexbill's own subscription fees are charged through Chexbill's CardConnect/Fiserv account (hosted tokenizer; Chexbill stores only a payment token, never the card number). Chexbill Payments is powered by CardConnect / Fiserv (First Data Merchant Services LLC, KeyBank as member bank). Merchants sign Fiserv's Merchant Processing Application and Agreement + Program Guide directly (3-year initial term, early-termination fee, personal guarantee). Chexbill's role: ISV / referral partner (sub-rep under an ISR); sets pricing per its Schedule A and charges its own processing markup plus other fees (annual fee, PCI fees, CardPointe platform fee, terminal rentals, ACH monthly fee, etc.). Card data never touches Chexbill servers (hosted tokenizer). Processor for Chexbill's own subscription fees: TBD (batch 6) | [CONFIRMED] |
+| Billing cycle and auto-renewal | Monthly or yearly, charged in advance at the start of each period; renews automatically for the same period until cancelled | [DEFAULT ACCEPTED] |
+| Refund policy (none / pro-rata / X-day money-back) | All fees non-refundable; no pro-rata refunds on yearly plans; no exceptions | [DEFAULT ACCEPTED] |
+| Cancellation mechanics and effect (end of period vs immediate) | Cancel in-app at any time; stops future charges; organization stays active until the end of the paid period, then becomes a lapsed subscription (365-day deletion clock, 2 months' notice) | [DEFAULT ACCEPTED] |
+| Price-change notice period | At least 30 days' notice by email; takes effect at the next renewal | [DEFAULT ACCEPTED] |
+| Late payment / failed payment handling (suspension, interest) | Retry the charge; 7-day grace period; then the organization is suspended and treated as a lapsed subscription. No interest charges | [CONFIRMED] |
+| Taxes: exclusive of tax? Who collects VAT/sales tax? | Prices exclusive of sales tax; Chexbill will collect tax where required. Not collecting US sales tax today; may begin once economic-nexus thresholds are reached in customers' states | [CONFIRMED] |
+| Currency | USD | [DEFAULT ACCEPTED] |
+| Invoiced / enterprise terms (Net days, ACH/wire) if B2B | Not applicable (self-serve card billing only) | [CONFIRMED] |
 
 ## 7. IP, user content & licensing
 
