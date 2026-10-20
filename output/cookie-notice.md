@@ -1,10 +1,10 @@
 # Chexbill Cookie Notice
 
-**Last updated: October 20, 2026**
+**Last updated: October 20, 2026.** This is the first version of this Cookie Notice.
 
 This Cookie Notice explains how Chexbill LLC ("**Chexbill**", "**we**", "**us**" or "**our**") uses cookies and similar technologies in connection with the chexbill.com website, the app.chexbill.com web application, and any other website that we own or control and which posts or links to this Cookie Notice (collectively, the "**Sites**").
 
-## What are cookies?
+## 1. What are cookies?
 
 Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies serve different purposes, like helping us understand how a site is being used, letting you navigate between pages efficiently, remembering your preferences, and generally improving your browsing experience.
 
@@ -12,7 +12,7 @@ Our Sites may use both session cookies (which expire once you close your web bro
 
 We use two broad categories of cookies: (1) first party cookies, served directly by us to your computer or mobile device, which we use to recognize your computer or mobile device when it revisits our Sites; and (2) third-party cookies, which are served by service providers on our Sites, and can be used by these parties to recognize your computer or mobile device when it visits other websites. Third-party cookies can be used for a variety of purposes, including site analytics and sign-in features.
 
-## What types of cookies and similar tracking technologies do we use on the Sites?
+## 2. What types of cookies and similar tracking technologies do we use on the Sites?
 
 On the Sites, we use cookies and other tracking technologies in the following categories described in the table below.
 
@@ -25,7 +25,7 @@ On the Sites, we use cookies and other tracking technologies in the following ca
 
 We do not use advertising cookies on our Sites.
 
-## Other technologies
+## 3. Other technologies
 
 In addition to cookies, our Sites may use other technologies, such as browser web storage and pixel tags, to collect information automatically.
 
@@ -33,7 +33,7 @@ In addition to cookies, our Sites may use other technologies, such as browser we
 
 **Web Beacons.** Our email delivery provider, Brevo, includes web beacons in our marketing emails to track which emails are opened and which links are clicked by recipients. We may also use web beacons (which are also known as pixel tags and clear GIFs) on our Sites and in our HTML formatted marketing emails to track the actions of users on our Sites and interactions with our emails. Unlike cookies, which are stored on the hard drive of your computer or mobile device by a website, pixel tags are embedded invisibly on webpages or within HTML formatted emails. Pixel tags are used to demonstrate that a webpage was accessed or that certain content was viewed, typically to measure the success of our marketing campaigns or engagement with our emails and to compile statistics about usage of the Sites, so that we can manage our content more effectively.
 
-## Your choices
+## 4. Your choices
 
 Your options for controlling what information cookies and similar technologies collect about you include:
 
@@ -46,13 +46,18 @@ You will need to apply these settings on each device and browser from which you 
 
 For more information about how we collect, use and share your information, see our Privacy Policy at https://chexbill.com/privacy.
 
-## Changes
+## 5. Changes
 
 Information about the cookies we use may be updated from time to time, so please check back on a regular basis for any changes.
 
-## Questions
+## 6. How to contact us
 
 If you have any questions about this Cookie Notice, please contact us by email at privacy@chexbill.com.
+
+**Related policies**
+
+- Privacy Policy: https://chexbill.com/privacy
+- Terms of Service: https://chexbill.com/terms
 
 ---
 

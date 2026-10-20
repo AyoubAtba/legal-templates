@@ -1,6 +1,6 @@
 # Chexbill Data Processing Addendum
 
-**Last updated: October 20, 2026**
+**Last updated: October 20, 2026.** This is the first version of this DPA.
 
 The undersigned customer ("Customer") and Chexbill LLC, a Delaware limited liability company ("Provider") (each a "Party" and collectively the "Parties") enter into this Data Processing Addendum (including the annexes attached hereto, this "DPA") as of the date signed by both Parties and forms part of the Chexbill Terms of Service accepted by Customer, as amended from time to time (the "Agreement") between the Parties.
 

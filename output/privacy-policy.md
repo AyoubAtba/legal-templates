@@ -1,16 +1,39 @@
 # Chexbill Privacy Policy
 
-**Last updated: October 20, 2026**
+**Last updated: October 20, 2026.** This is the first version of this Privacy Policy.
 
 Effective as of October 20, 2026.
 
 **California Notice at Collection / State Privacy Rights Notice**: See the State privacy rights notice section below for important information about your rights under applicable state privacy laws.
 
+**Contents**
+
+1. Who we are and what this policy covers
+2. Personal information we process on behalf of our customers
+3. Personal information we collect
+4. How we use your personal information
+5. Tracking & other technologies
+6. How we share your personal information
+7. Retention
+8. Security
+9. International data transfer
+10. Your choices
+11. Children
+12. Other sites and services
+13. Changes to this Privacy Policy
+14. How to contact us
+15. State privacy rights notice
+
+## 1. Who we are and what this policy covers
+
 Chexbill LLC ("**Chexbill**," "**we**," "**us**," or "**our**") provides a cloud-based accounting and point-of-sale solution for businesses that lets them issue invoices and estimates, track bills, capture expenses, reconcile bank feeds, generate reports, and accept online and in-person payments through Chexbill Payments. This Privacy Policy describes how Chexbill processes personal information that we collect through our digital or online properties or services that link to this Privacy Policy (including, as applicable, our website at chexbill.com, our web application at app.chexbill.com, and our social media pages) as well as our marketing activities and other activities described in this Privacy Policy (collectively, the "**Service**").
 
-**Personal information we process on behalf of our customers.** Our customers use the Service to manage their own business records, which may include personal information about their customers, vendors, employees, and the people who pay their invoices. We process that information on our customers' behalf and under their instructions, as described in our Data Processing Addendum, available at https://chexbill.com/dpa. If your personal information has been entered into the Service by one of our customers and you have questions about how it is used, please contact that customer directly. This Privacy Policy governs our own use of personal information; it does not govern how our customers use the information they collect.
+## 2. Personal information we process on behalf of our customers
 
-## Personal information we collect
+Our customers use the Service to manage their own business records, which may include personal information about their customers, vendors, employees, and the people who pay their invoices. We process that information on our customers' behalf and under their instructions, as described in our Data Processing Addendum, available at https://chexbill.com/dpa. If your personal information has been entered into the Service by one of our customers and you have questions about how it is used, please contact that customer directly. This Privacy Policy governs our own use of personal information; it does not govern how our customers use the information they collect.
+
+## 3. Personal information we collect
+
 
 **Information you provide to us.** Personal information you may provide to us through the Service or otherwise includes:
 
@@ -45,17 +68,8 @@ For more information concerning our automatic collection of data, please see the
 
 **Data about others.** We may offer features that help users invite their colleagues to join their organization on the Service, and we may collect contact details about these invitees so we can deliver their invitations. Please do not refer someone to us or share their contact details with us unless you have their permission to do so.
 
-## Tracking & other technologies
+## 4. How we use your personal information
 
-**Cookies and other technologies.** Some of our automatic data collection is facilitated by cookies and other technologies. For more information, see our Cookie Notice at https://chexbill.com/cookies.
-
-**Chat and support technologies.** Our customer support and help features are provided by Zendesk, which employs cookies and software code to operate the support widget that you can use to communicate with us through the Service. Zendesk may access and use information about the webpages you visit on our Service, your IP address, and the information you share through the support widget to facilitate the provision of the Service.
-
-**Artificial intelligence ("AI") technologies.** The Service uses AI technology provided by Google (the Gemini API) to extract data from receipts, bills, and other documents that you upload. Google may access and process the content of the documents you upload to provide this feature. We use the paid tier of this service, under which Google does not use your inputs to train or improve its models. [ATTORNEY REVIEW: confirm against Google's current API terms at publication.]
-
-For information concerning your choices with respect to the use of tracking technologies, see the Your choices section of our Cookie Notice.
-
-## How we use your personal information
 
 We may use your personal information for the following purposes or as otherwise described at the time of collection:
 
@@ -93,21 +107,19 @@ We may use your personal information for the following purposes or as otherwise 
 
 **Further uses.** In some cases, we may use your personal information for further uses, in which case we will ask for your consent to use your personal information for those further purposes if they are not compatible with the initial purpose for which information was collected.
 
-## Retention
+## 5. Tracking & other technologies
 
-We generally retain personal information to fulfill the purposes for which we collected it, including for the purposes of satisfying any legal, accounting, or reporting requirements, establishing or defending legal claims, or for fraud prevention purposes. To determine the appropriate retention period for personal information, we may consider factors such as the amount, nature, and sensitivity of the personal information, the potential risk of harm from unauthorized use or disclosure of your personal information, the purposes for which we process your personal information and whether we can achieve those purposes through other means, and the applicable legal requirements.
 
-In particular:
+**Cookies and other technologies.** Some of our automatic data collection is facilitated by cookies and other technologies. For more information, see our Cookie Notice at https://chexbill.com/cookies.
 
-- **Account and organization data** is retained for as long as your account or organization is active. When an organization is deleted, we prompt its administrator to export its data first. An organization with no active subscription for 365 consecutive days may be deleted automatically; we notify the administrator by email at least 60 days beforehand. An organization created during a free trial that does not subscribe may be deleted 90 days after the trial ends.
-- **Chexbill Payments application data** (including Social Security numbers, employer identification numbers, dates of birth, and bank account numbers) is collected solely to transmit to our payment processor and is deleted from our systems once your onboarding with the processor is complete.
-- **Server logs** are retained for up to 365 days for debugging and monitoring the health of the Service.
-- **Backups.** Following deletion, copies of personal information may persist in our backups for a limited period before being overwritten. [TBD — needs attorney/founder decision: state the backup retention window.]
-- **Records required by law**, such as tax and payment records, may be retained for as long as applicable law requires. [ATTORNEY REVIEW: confirm retention required for information returns (e.g., Form 1099) filed through the Service against the automatic deletion schedule above.]
+**Chat and support technologies.** Our customer support and help features are provided by Zendesk, which employs cookies and software code to operate the support widget that you can use to communicate with us through the Service. Zendesk may access and use information about the webpages you visit on our Service, your IP address, and the information you share through the support widget to facilitate the provision of the Service.
 
-When we no longer require the personal information we have collected about you, we may either delete it, anonymize it, or isolate it from further processing.
+**Artificial intelligence ("AI") technologies.** The Service uses AI technology provided by Google (the Gemini API) to extract data from receipts, bills, and other documents that you upload. Google may access and process the content of the documents you upload to provide this feature. We use the paid tier of this service, under which Google does not use your inputs to train or improve its models. [ATTORNEY REVIEW: confirm against Google's current API terms at publication.]
 
-## How we share your personal information
+For information concerning your choices with respect to the use of tracking technologies, see the Your choices section of our Cookie Notice.
+
+## 6. How we share your personal information
+
 
 We may share your personal information with the following parties (or as otherwise described in this Privacy Policy, in other applicable notices, or at the time of collection).
 
@@ -129,7 +141,33 @@ We may share your personal information with the following parties (or as otherwi
 
 **Other users of your organization.** Information you add to an organization on the Service is visible to the other authorized users of that organization. If you send an invoice or payment link to a customer, the information on that invoice is visible to the recipient. This information can be seen, collected and used by its recipients, including being copied or stored elsewhere by them, and we are not responsible for any such use of this information.
 
-## Your choices
+## 7. Retention
+
+
+We generally retain personal information to fulfill the purposes for which we collected it, including for the purposes of satisfying any legal, accounting, or reporting requirements, establishing or defending legal claims, or for fraud prevention purposes. To determine the appropriate retention period for personal information, we may consider factors such as the amount, nature, and sensitivity of the personal information, the potential risk of harm from unauthorized use or disclosure of your personal information, the purposes for which we process your personal information and whether we can achieve those purposes through other means, and the applicable legal requirements.
+
+In particular:
+
+- **Account and organization data** is retained for as long as your account or organization is active. When an organization is deleted, we prompt its administrator to export its data first. An organization with no active subscription for 365 consecutive days may be deleted automatically; we notify the administrator by email at least 60 days beforehand. An organization created during a free trial that does not subscribe may be deleted 90 days after the trial ends.
+- **Chexbill Payments application data** (including Social Security numbers, employer identification numbers, dates of birth, and bank account numbers) is collected solely to transmit to our payment processor and is deleted from our systems once your onboarding with the processor is complete.
+- **Server logs** are retained for up to 365 days for debugging and monitoring the health of the Service.
+- **Backups.** Following deletion, copies of personal information may persist in our backups for a limited period before being overwritten. [TBD — needs attorney/founder decision: state the backup retention window.]
+- **Records required by law**, such as tax and payment records, may be retained for as long as applicable law requires. [ATTORNEY REVIEW: confirm retention required for information returns (e.g., Form 1099) filed through the Service against the automatic deletion schedule above.]
+
+When we no longer require the personal information we have collected about you, we may either delete it, anonymize it, or isolate it from further processing.
+
+## 8. Security
+
+
+We employ technical, organizational and physical safeguards designed to protect the personal information we collect. However, security risk is inherent in all internet and information technologies and we cannot guarantee the security of your personal information.
+
+## 9. International data transfer
+
+
+We are headquartered in the United States and may use service providers that operate in other countries. Your personal information may be transferred to the United States or other locations where privacy laws may not be as protective as those in your state, province, or country.
+
+## 10. Your choices
+
 
 In this section, we describe the rights and choices available to all users. Users who are located in certain U.S. states can find additional information about their rights below.
 
@@ -151,34 +189,31 @@ In this section, we describe the rights and choices available to all users. User
 
 **Delete your content or close your account.** You can choose to delete certain content through your account. You can delete your user account from your account settings, and an organization's administrator can delete the organization from its settings. If you need help, contact us at support@chexbill.com.
 
-## Other sites and services
+## 11. Children
 
-The Service may contain links to websites, mobile applications, and other online services operated by third parties. In addition, our content may be integrated into web pages or other online services that are not associated with us. These links and integrations are not an endorsement of, or representation that we are affiliated with, any third party. We do not control websites, mobile applications or online services operated by third parties, and we are not responsible for their actions. We encourage you to read the privacy policies of the other websites, mobile applications and online services you use.
-
-## Security
-
-We employ technical, organizational and physical safeguards designed to protect the personal information we collect. However, security risk is inherent in all internet and information technologies and we cannot guarantee the security of your personal information.
-
-## International data transfer
-
-We are headquartered in the United States and may use service providers that operate in other countries. Your personal information may be transferred to the United States or other locations where privacy laws may not be as protective as those in your state, province, or country.
-
-## Children
 
 The Service is not intended for use by anyone under 18 years of age. If you are a parent or guardian of a child from whom you believe we have collected personal information in a manner prohibited by law, please contact us. If we learn that we have collected personal information through the Service from a child without the consent of the child's parent or guardian as required by law, we will comply with applicable legal requirements to delete the information.
 
-## Changes to this Privacy Policy
+## 12. Other sites and services
+
+
+The Service may contain links to websites, mobile applications, and other online services operated by third parties. In addition, our content may be integrated into web pages or other online services that are not associated with us. These links and integrations are not an endorsement of, or representation that we are affiliated with, any third party. We do not control websites, mobile applications or online services operated by third parties, and we are not responsible for their actions. We encourage you to read the privacy policies of the other websites, mobile applications and online services you use.
+
+## 13. Changes to this Privacy Policy
+
 
 We reserve the right to modify this Privacy Policy at any time. If we make material changes to this Privacy Policy, we will notify you by updating the date of this Privacy Policy and posting it on the Service or other appropriate means. Any modifications to this Privacy Policy will be effective upon our posting the modified version (or as otherwise indicated at the time of posting). In all cases, your use of the Service after the effective date of any modified Privacy Policy indicates your acknowledging that the modified Privacy Policy applies to your interactions with the Service and our business.
 
-## How to contact us
+## 14. How to contact us
+
 
 If you have questions about our practices or if you would like to exercise any privacy related right that may be available to you, please contact us via one of the methods listed below.
 
 - **Email**: privacy@chexbill.com
 - **Mail**: Chexbill LLC, 257 Chapman Rd #208, Newark, DE 19702
 
-## State privacy rights notice
+## 15. State privacy rights notice
+
 
 Except as otherwise provided, this section applies to residents of U.S. states to the extent they have privacy laws applicable to us that grant their residents the rights described below (collectively the "**State Privacy Laws**").
 
@@ -239,6 +274,13 @@ Under some State Privacy Laws, you may enable an authorized agent to make a requ
 **Additional information for Nevada residents.** Nevada residents have the right to opt-out of the sale of certain personal information for monetary consideration. While we do not currently engage in such sales, if you are a Nevada resident and would like to make a request to opt out of any potential future sales, please email privacy@chexbill.com.
 
 **Contact Us.** If you have questions or concerns about our privacy policies or information practices, please contact us using the contact details set forth in the How to contact us section above.
+
+**Related policies**
+
+- Terms of Service: https://chexbill.com/terms
+- Cookie Notice: https://chexbill.com/cookies
+- Data Processing Addendum: https://chexbill.com/dpa
+- Subprocessors: https://chexbill.com/subprocessors
 
 ---
 
