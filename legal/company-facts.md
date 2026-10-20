@@ -4,7 +4,7 @@ Running record of every answer given during the legal-document interview. Read t
 
 Legend: `[CONFIRMED]` answered by founder · `[DEFAULT ACCEPTED]` founder said "yes" to a suggested default · `[TBD — needs attorney/founder decision]` unknown
 
-Last updated: 2026-10-20 (skeleton created; no interview answers recorded yet)
+Last updated: 2026-10-20 (Batch 1 — company identity & jurisdiction — recorded)
 
 ---
 
@@ -22,25 +22,25 @@ Last updated: 2026-10-20 (skeleton created; no interview answers recorded yet)
 
 | Fact | Answer | Status |
 |---|---|---|
-| Full legal entity name | | |
-| Entity type and state/country of formation (e.g. Delaware C-corp) | | |
-| Short/brand name used in documents ("CompanyName") | | |
-| Registered/mailing address (used for notices, California §1789.3 notice, arbitration opt-out) | | |
-| Product domain(s) / website URL(s) the documents cover | | |
-| Any mobile app covered? | | |
-| General contact email | | |
-| Privacy / data-requests contact email | | |
-| Disputes / legal notices email | | |
-| Accessibility contact email or phone | | |
-| Phone number (privacy policy lists one; optional) | | |
-| Where the company is headquartered / where data is processed | | |
-| Subsidiaries or affiliates to cover? | | |
-| Where are users located? (US only / US + EU/UK / global) | | |
-| Any establishment (office, staff, entity) in the EU or UK? | | |
-| Any users in Switzerland? | | |
-| Governing law (state) | | |
-| Venue (county, state) for non-arbitrable claims | | |
-| Any planned business in healthcare (HIPAA) or with children (COPPA)? | | |
+| Full legal entity name | Chexbill LLC | [CONFIRMED] |
+| Entity type and state/country of formation (e.g. Delaware C-corp) | Delaware limited liability company (LLC). Note: Mutual NDA template says "a Delaware corporation"; must read "a Delaware limited liability company". | [CONFIRMED] |
+| Short/brand name used in documents ("CompanyName") | Chexbill | [CONFIRMED] |
+| Registered/mailing address (used for notices, California §1789.3 notice, arbitration opt-out) | 257 Chapman Rd #208, Newark, DE 19702 (New Castle County) | [CONFIRMED] |
+| Product domain(s) / website URL(s) the documents cover | chexbill.com (marketing website) and app.chexbill.com (the SaaS application) | [CONFIRMED] |
+| Any mobile app covered? | Not stated; assumed none (confirm in batch 2) | [TBD — needs attorney/founder decision] |
+| General contact email | support@chexbill.com | [CONFIRMED] |
+| Privacy / data-requests contact email | privacy@chexbill.com | [CONFIRMED] |
+| Disputes / legal notices email | legal@chexbill.com | [CONFIRMED] |
+| Accessibility contact email or phone | support@chexbill.com | [DEFAULT ACCEPTED] |
+| Phone number (privacy policy lists one; optional) | None provided; phone contact lines will be omitted (email + web form remain) | [DEFAULT ACCEPTED] |
+| Where the company is headquartered / where data is processed | United States (Delaware address); hosting region TBD in batch 4 | [CONFIRMED] |
+| Subsidiaries or affiliates to cover? | None; affiliates language will be dropped | [DEFAULT ACCEPTED] |
+| Where are users located? (US only / US + EU/UK / global) | US only → use Privacy Policy (US) and DPA (US); no GDPR notice, no EU/UK representatives, no SCCs | [CONFIRMED] |
+| Any establishment (office, staff, entity) in the EU or UK? | None | [CONFIRMED] |
+| Any users in Switzerland? | No (US only) | [CONFIRMED] |
+| Governing law (state) | Delaware (state of incorporation) | [CONFIRMED] |
+| Venue (county, state) for non-arbitrable claims | New Castle County, Delaware (county of the registered address; founder to confirm) | [DEFAULT ACCEPTED] |
+| Any planned business in healthcare (HIPAA) or with children (COPPA)? | No health data (no BAA). No users under 18 (keep 18+ gate; use "under 16: no actual knowledge" alternative in state notice) | [CONFIRMED] |
 
 ## 2. Product & pricing model
 
