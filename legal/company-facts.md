@@ -4,7 +4,7 @@ Running record of every answer given during the legal-document interview. Read t
 
 Legend: `[CONFIRMED]` answered by founder · `[DEFAULT ACCEPTED]` founder said "yes" to a suggested default · `[TBD — needs attorney/founder decision]` unknown
 
-Last updated: 2026-10-20 (Batches 1–6 recorded, except Q8 on Chexbill Payments fee mechanics)
+Last updated: 2026-10-20 (Batches 1–6 recorded)
 
 ---
 
@@ -125,6 +125,7 @@ Last updated: 2026-10-20 (Batches 1–6 recorded, except Q8 on Chexbill Payments
 | Taxes: exclusive of tax? Who collects VAT/sales tax? | Prices exclusive of sales tax; Chexbill will collect tax where required. Not collecting US sales tax today; may begin once economic-nexus thresholds are reached in customers' states | [CONFIRMED] |
 | Currency | USD | [DEFAULT ACCEPTED] |
 | Invoiced / enterprise terms (Net days, ACH/wire) if B2B | Not applicable (self-serve card billing only) | [CONFIRMED] |
+| Chexbill Payments fee mechanics (merchant-facing) | (1) Rates and fees are those in the merchant's pricing schedule and merchant application; may change on notice. (2) Processing and recurring fees appear on the Fiserv merchant statement and are deducted from the merchant's bank account by the processor; Chexbill does not bill them separately. Exception: payment terminals/equipment are sold or rented by Chexbill and billed separately by Chexbill, either paid up front or monthly for a set period. (3) Chargebacks, reserves, funding holds, underwriting, and account closure are governed by the merchant's CardConnect/Fiserv agreement; Chexbill does not control those decisions. (4) Merchant must be approved by and contract with CardConnect/Fiserv and its sponsor bank; Chexbill is a referral partner and software provider, not a processor or bank | [CONFIRMED] |
 
 ## 7. IP, user content & licensing
 
