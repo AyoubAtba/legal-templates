@@ -49,6 +49,8 @@ For more information concerning our automatic collection of data, please see the
 
 **Cookies and other technologies.** Some of our automatic data collection is facilitated by cookies and other technologies. For more information, see our Cookie Notice at https://chexbill.com/cookies.
 
+**Chat and support technologies.** Our customer support and help features are provided by Zendesk, which employs cookies and software code to operate the support widget that you can use to communicate with us through the Service. Zendesk may access and use information about the webpages you visit on our Service, your IP address, and the information you share through the support widget to facilitate the provision of the Service.
+
 **Artificial intelligence ("AI") technologies.** The Service uses AI technology provided by Google (the Gemini API) to extract data from receipts, bills, and other documents that you upload. Google may access and process the content of the documents you upload to provide this feature. We use the paid tier of this service, under which Google does not use your inputs to train or improve its models. [ATTORNEY REVIEW: confirm against Google's current API terms at publication.]
 
 For information concerning your choices with respect to the use of tracking technologies, see the Your choices section of our Cookie Notice.
@@ -125,7 +127,7 @@ We may share your personal information with the following parties (or as otherwi
 
 **Business transferees.** We may disclose personal information in the context of actual or prospective business transactions (*e.g.,* investments in Chexbill, financing of Chexbill, public stock offerings, or the sale, transfer or merger of all or part of our business, assets or shares). For example, we may need to share certain personal information with prospective counterparties and their advisers. We may also disclose your personal information to an acquirer, successor, or assignee of Chexbill as part of any merger, acquisition, sale of assets, or similar transaction, and/or in the event of an insolvency, bankruptcy, or receivership in which personal information is transferred to one or more third parties as one of our business assets.
 
-**Other users of your organization.** Information you add to an organization on the Service is visible to the other authorized users of that organization. If you send an invoice or payment link to a customer, the information on that invoice is visible to the recipient.
+**Other users of your organization.** Information you add to an organization on the Service is visible to the other authorized users of that organization. If you send an invoice or payment link to a customer, the information on that invoice is visible to the recipient. This information can be seen, collected and used by its recipients, including being copied or stored elsewhere by them, and we are not responsible for any such use of this information.
 
 ## Your choices
 

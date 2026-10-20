@@ -19,11 +19,11 @@ On the Sites, we use cookies and other tracking technologies in the following ca
 | Type | Description | Who serves the cookies (link to privacy policy/site) | How to control them |
 | --- | --- | --- | --- |
 | Essential | These cookies are necessary to allow the technical operation of our services (e.g., they enable you to sign in, move around on a website and use its features, and keep your session secure). | Chexbill; Clerk (authentication) – https://clerk.com/legal/privacy; Vercel (hosting) – https://vercel.com/legal/privacy-policy; Supabase (application infrastructure) – https://supabase.com/privacy | These cookies are required for the Sites to work. You can block them in your browser settings, but the Sites may not function properly. |
-| Analytics | These cookies help us understand how our services are performing and being used. | PostHog – https://posthog.com/privacy | See "Your choices" below. |
-| Functionality / performance | Enhance the performance and functionality of our services, such as remembering your preferences and enabling our help and support widget. | Chexbill; Zendesk (customer support widget) – https://www.zendesk.com/company/agreements-and-terms/privacy-notice/ | See "Your choices" below. |
-| Social (sign-in) | These cookies allow you to log into the Sites through your Google, Microsoft, or Apple account. | Google – https://policies.google.com/privacy; Microsoft – https://privacy.microsoft.com/privacystatement; Apple – https://www.apple.com/legal/privacy/ | See "Your choices" below. You can also manage connected sign-in services in your account with the applicable provider. |
+| Analytics | These cookies help us understand how our services are performing and being used. | PostHog – https://posthog.com/privacy | Block or delete cookies in your browser settings (see "Your choices" below); PostHog's privacy policy describes its own opt-out settings. |
+| Functionality / performance | Enhance the performance and functionality of our services, such as remembering your preferences and enabling our help and support widget. | Chexbill; Zendesk (customer support widget) – https://www.zendesk.com/company/agreements-and-terms/privacy-notice/ | Block or delete cookies in your browser settings (see "Your choices" below). |
+| Social (sign-in) | These cookies allow you to log into the Sites through your Google, Microsoft, or Apple account. | Google – https://policies.google.com/privacy; Microsoft – https://privacy.microsoft.com/privacystatement; Apple – https://www.apple.com/legal/privacy/ | Block or delete cookies in your browser settings (see "Your choices" below), or manage connected sign-in services in your account with the applicable provider. |
 
-We do not use advertising cookies, and we do not permit third parties to serve advertising cookies through our Sites.
+We do not use advertising cookies on our Sites.
 
 ## Other technologies
 
@@ -40,7 +40,7 @@ Your options for controlling what information cookies and similar technologies c
 1. **Blocking cookies in your browser.** Most browsers let you remove or reject cookies. To do this, follow the instructions in your browser settings. Many browsers accept cookies by default until you change your settings. Please note that if you set your browser to disable cookies, the Sites may not work properly. For more information about cookies, including how to see what cookies have been set on your device and how to manage and delete them, visit http://www.allaboutcookies.org. If you do not accept our cookies, you may experience some inconvenience in your use of our Sites. For example, we may not be able to recognize your computer or mobile device and you may need to log in every time you visit our Sites.
 2. **Blocking images/clear gifs.** Most browsers and devices allow you to configure your device to prevent images from loading. To do this, follow the instructions in your particular browser or device settings.
 3. **Global Privacy Control.** We honor Global Privacy Control ("GPC") signals sent by your browser as described in our Privacy Policy.
-4. **Third-party opt-out options.** You can opt out of analytics or other processing by some of the third parties listed in the chart above by using the opt-out tools or settings provided by those third parties on the sites linked in the chart.
+4. **Third-party opt-out options.** Some of the third parties listed in the chart above offer their own opt-out settings, which are described in their privacy policies linked in the chart.
 
 You will need to apply these settings on each device and browser from which you wish to limit the use of your information.
 
