@@ -4,7 +4,7 @@ Running record of every answer given during the legal-document interview. Read t
 
 Legend: `[CONFIRMED]` answered by founder · `[DEFAULT ACCEPTED]` founder said "yes" to a suggested default · `[TBD — needs attorney/founder decision]` unknown
 
-Last updated: 2026-10-20 (Batches 1–6 recorded)
+Last updated: 2026-10-20 (Batches 1–7 recorded)
 
 ---
 
@@ -53,7 +53,7 @@ Last updated: 2026-10-20 (Batches 1–6 recorded)
 | Paid plans: subscription (monthly/annual), usage-based, one-time? | Monthly and yearly subscriptions, auto-renewing. Payment-processing fees for Chexbill Payments: TBD (batch 6) | [CONFIRMED] |
 | Is use "personal, non-commercial" (ToS template default) or commercial/business use? | Internal business use (B2B) → ToS license must be rewritten from "personal, non-commercial" | [CONFIRMED] |
 | Any AI / generative features? Which model providers? | Yes: Google Gemini API used to extract data from uploaded receipts and bills. Whether the paid/no-training API tier is used: TBD | [CONFIRMED] |
-| Any user-to-user features (sharing, messaging, public profiles)? | No social features. Shareable invoice payment links let a customer's client pay online (payor is not an account holder) | [CONFIRMED] |
+| Any user-to-user features (sharing, messaging, public profiles)? | No social features. Shareable invoice payment links let a customer's client pay online (payor is not an account holder). Payors deal with the merchant; Chexbill is not a party to the sale and does not handle refunds or disputes over the goods. Payment page shows a short notice linking the Terms and Privacy Policy | [CONFIRMED] |
 | Any third-party integrations / connected accounts (OAuth to other services)? | (1) Plaid bank feed: user connects bank; transactions pulled for reconciliation. (2) CardConnect / Fiserv powers "Chexbill Payments": merchant onboarding data collected and sent to CardConnect for underwriting and KYC; online and in-person (POS) card acceptance | [CONFIRMED] |
 | Any mobile app or SDKs? | No mobile app for now | [CONFIRMED] |
 | Do you provide support? Any SLA/uptime commitment? | No support commitment, no SLA (keep template "no support obligation") | [CONFIRMED] |
@@ -131,15 +131,15 @@ Last updated: 2026-10-20 (Batches 1–6 recorded)
 
 | Fact | Answer | Status |
 |---|---|---|
-| Who owns user-uploaded content / inputs? (template default: customer owns, grants company a license to operate) | | |
-| Who owns AI outputs (if any)? | | |
-| License users grant you over their content (scope: operate/improve service; aggregated data) | | |
-| Aggregated / de-identified data rights retained by company? | | |
-| Feedback license (template: perpetual, irrevocable, royalty-free) | | |
-| Trademarks / logos to list | | |
-| Copyright notice year and holder | | |
-| DMCA / copyright-infringement notice process and agent (not in template; decision) | | |
-| Open-source or third-party components to disclose? | | |
+| Who owns user-uploaded content / inputs? (template default: customer owns, grants company a license to operate) | Customer owns all its business data (invoices, bills, expenses, receipts, contacts, reports). Chexbill gets a limited license to host, process, display, transmit, and back it up to provide the Service, and to create aggregated, de-identified data | [DEFAULT ACCEPTED] |
+| Who owns AI outputs (if any)? | Customer owns data extracted from receipts/bills by the AI feature; Chexbill disclaims accuracy and requires the customer to review before relying on it (incl. for tax purposes) | [DEFAULT ACCEPTED] |
+| License users grant you over their content (scope: operate/improve service; aggregated data) | Operate, maintain, secure, and improve the Service; aggregated/de-identified data for analytics and product improvement. Reports and 1099 filings are prepared from the customer's own data; Chexbill is software, not an accountant or tax advisor; customer is responsible for accuracy and deadlines. Chexbill will inform the customer whether a 1099 filing was accepted or rejected by the IRS (via TaxBandits) | [CONFIRMED] |
+| Aggregated / de-identified data rights retained by company? | Yes | [DEFAULT ACCEPTED] |
+| Feedback license (template: perpetual, irrevocable, royalty-free) | Keep template clause | [DEFAULT ACCEPTED] |
+| Trademarks / logos to list | "Chexbill" and "Chexbill Payments" claimed as trademarks (not registered) | [DEFAULT ACCEPTED] |
+| Copyright notice year and holder | © 2026 Chexbill LLC | [DEFAULT ACCEPTED] |
+| DMCA / copyright-infringement notice process and agent (not in template; decision) | One-paragraph clause: report claimed infringement to legal@chexbill.com. No DMCA agent registration (attorney to advise on safe-harbor registration) | [DEFAULT ACCEPTED] |
+| Open-source or third-party components to disclose? | Generic line that the Service includes third-party and open-source software under its own licenses; no list | [DEFAULT ACCEPTED] |
 
 ## 8. Liability, disputes & governing law
 
