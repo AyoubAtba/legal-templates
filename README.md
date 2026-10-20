@@ -8,6 +8,18 @@ These templates are provided in LLM-optimized markdown and original .docx format
 
 These templates include a General Legal credit footnote. The templates are released under CC0 1.0 Universal, so retaining that footnote isn't a legal requirement, but we ask that you keep it in place when reproducing or adapting these documents.
 
+## Policy Format
+
+The public-facing policies (Terms of Use, both Privacy Policies, and the Cookie Notice) share a common layout:
+
+- A title, a **Last updated** date with a short note on what changed, and a link to previous versions
+- A contents list (Terms of Use and Privacy Policies) and numbered sections with short, plain headings
+- In the Terms of Use, a short plain-language summary in italics at the start of each section
+- Region-specific provisions (U.S. state notices, Notice to European users) grouped toward the end
+- A "How to contact us" section, followed by links to related policies
+
+If you customize a section of the Terms of Use, update its summary so the two still match.
+
 ## Templates
 
 | Template | Description |

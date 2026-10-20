@@ -27,6 +27,7 @@ This template provides a comprehensive, modern, and legally informed structure f
 
 ## Key Provisions
 
+- Plain-language summary at the start of each section, with a "Last updated" header and links to related policies
 - Account creation and security requirements
 - Access license and use restrictions, preventing misuse, reverse engineering, or commercial exploitation
 - Company rights to modify, suspend, or discontinue the site
