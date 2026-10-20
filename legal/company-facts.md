@@ -4,7 +4,7 @@ Running record of every answer given during the legal-document interview. Read t
 
 Legend: `[CONFIRMED]` answered by founder · `[DEFAULT ACCEPTED]` founder said "yes" to a suggested default · `[TBD — needs attorney/founder decision]` unknown
 
-Last updated: 2026-10-20 (Batches 1–4 recorded)
+Last updated: 2026-10-20 (Batches 1–5 recorded)
 
 ---
 
@@ -82,7 +82,7 @@ Last updated: 2026-10-20 (Batches 1–4 recorded)
 | Customer support / chat provider | Zendesk | [CONFIRMED] |
 | AI / LLM providers and whether they may train on user data | Google Gemini API, paid tier (receipt/bill extraction). Paid-tier terms do not use prompts to improve Google's models; attorney to confirm current Google terms at publication | [CONFIRMED] |
 | Do you train your own models on user data (even aggregated/de-identified)? Opt-out mechanism? | May use aggregated/de-identified data to improve the Service; no training on identifiable data; no opt-out needed (privacy policy "Training data" opt-out paragraph dropped) | [CONFIRMED] |
-| Retention period(s) for account data, logs, backups, after account closure | (a) Active account/organization data: for as long as the account or organization is active. (b) Organization deletion: on explicit deletion the admin is prompted to export; organizations with no active subscription for 365 days are deleted automatically, with notice 2 months before. (c) Server logs: 365 days. (d) Merchant onboarding (KYC) data: collected and transmitted to CardConnect; not retained by Chexbill after boarding (founder to confirm; see open items). (e) 1099 records: same as organization policy (attorney to confirm against IRS record-keeping requirements). Backup retention window: TBD | [CONFIRMED] |
+| Retention period(s) for account data, logs, backups, after account closure | (a) Active account/organization data: for as long as the account or organization is active. (b) Organization deletion: on explicit deletion the admin is prompted to export; organizations with no active subscription for 365 days are deleted automatically, with notice 2 months before. (c) Server logs: 365 days. (d) Merchant onboarding (KYC) data (SSN/EIN, DOB, bank account): collected solely to transmit to CardConnect/Fiserv and deleted from Chexbill systems after onboarding; never placed in Zendesk tickets, Sentry reports, or logs. (e) 1099 records: same as organization policy (attorney to confirm against IRS record-keeping requirements). Backup retention window: TBD | [CONFIRMED] |
 | Deletion process on account closure | See §3 (user vs organization deletion; export offered; financial check before organization deletion) | [CONFIRMED] |
 | Do you share data with advertising partners / "sell" or "share" under CCPA? | No sale, no sharing for targeted advertising, no data brokers, no affiliates. State notice uses the "we do not sell / do not process for targeted advertising" alternatives; interest-based advertising sections dropped (subject to batch 5 answers on pixels) | [CONFIRMED] |
 | Any profiling or automated decision-making with significant effects? | None by Chexbill (merchant underwriting decisions are made by CardConnect/Fiserv, not Chexbill) | [DEFAULT ACCEPTED] |
@@ -101,16 +101,16 @@ Last updated: 2026-10-20 (Batches 1–4 recorded)
 
 | Fact | Answer | Status |
 |---|---|---|
-| Analytics tools (e.g. Google Analytics, Plausible, PostHog, Mixpanel) | | |
-| Advertising / retargeting pixels (Meta, Google Ads, LinkedIn)? | | |
-| Session replay tools (FullStory, Hotjar, LogRocket, PostHog replay)? | | |
-| Social login / share widgets | | |
-| Essential cookies (auth/session, CSRF, load balancing) | | |
-| Functionality/preference cookies | | |
-| Email open/click tracking pixels? | | |
-| Cookie banner / consent-management platform in use? Preference dashboard URL? | | |
-| Any browser local storage use beyond cookies? | | |
-| Mobile SDKs (if app exists) | | |
+| Analytics tools (e.g. Google Analytics, Plausible, PostHog, Mixpanel) | PostHog only (app and marketing site). No Google Analytics / Tag Manager | [DEFAULT ACCEPTED] |
+| Advertising / retargeting pixels (Meta, Google Ads, LinkedIn)? | None → Advertising cookie row and interest-based advertising sections dropped | [DEFAULT ACCEPTED] |
+| Session replay tools (FullStory, Hotjar, LogRocket, PostHog replay)? | None (PostHog session recording off) → session-replay paragraph dropped | [DEFAULT ACCEPTED] |
+| Social login / share widgets | Social login via Clerk (Google, Microsoft, Apple); no share widgets. Cookie table "Social" row limited to login | [DEFAULT ACCEPTED] |
+| Essential cookies (auth/session, CSRF, load balancing) | Clerk session cookies; Vercel/Supabase infrastructure cookies | [DEFAULT ACCEPTED] |
+| Functionality/preference cookies | Zendesk help/chat widget (embedded); app preferences | [DEFAULT ACCEPTED] |
+| Email open/click tracking pixels? | Yes, via Brevo, marketing emails only (not transactional invoices/receipts) | [DEFAULT ACCEPTED] |
+| Cookie banner / consent-management platform in use? Preference dashboard URL? | No banner; Cookie Notice linked in the footer; GPC honored → optional "Cookie Preference Dashboard" block dropped | [DEFAULT ACCEPTED] |
+| Any browser local storage use beyond cookies? | Yes (web app local storage) → keep browser web storage paragraph | [DEFAULT ACCEPTED] |
+| Mobile SDKs (if app exists) | Not applicable (no app) → SDK paragraph dropped | [CONFIRMED] |
 
 ## 6. Payments, refunds & cancellation
 
@@ -167,6 +167,6 @@ Last updated: 2026-10-20 (Batches 1–4 recorded)
 - Chexbill Payments fee schedule (Schedule A with CardConnect, provided by founder as screenshots) lists Chexbill's own fees to merchants (annual fee $25, PCI annual $25, PCI non-compliance $10/mo, CardPointe platform $15/mo, Fiserv ACH $10/mo, terminal rentals, bps markups, per-item auth fees). The Terms should state that Chexbill Payments fees are disclosed in the merchant's pricing schedule/application and may change on notice. Attorney to confirm whether Chexbill may bill these itself or only via the processor statement, and whether the 3-year Fiserv term / early-termination fee must be flagged in Chexbill's own Terms.
 - Reference documents provided by founder (not committed to the repo): Fiserv "Merchant Processing Application and Agreement" (GenCP-KB-2910_MPA_08.28.26) and "Program Terms and Conditions (Program Guide)" (GenCP-KB-2907_PG_07.01.26); Schedule A screenshots.
 - Automatic deletion of organizations 365 days after a lapsed subscription (with 2 months' notice) must be disclosed in the Terms and reconciled with record-retention duties (tax, payments, 1099). IRS guidance generally requires filers to keep copies of information returns for at least 4 years; attorney to confirm what Chexbill (vs. TaxBandits or the customer) must retain.
-- Merchant KYC data: batch 3 said SSN/EIN, DOB, and bank account numbers are collected and stored; batch 4 said Chexbill holds no merchant data after boarding. Recorded as "collected and transmitted, not retained after boarding" pending founder confirmation. If any copy is retained (even in logs, Zendesk tickets, or Supabase), the privacy policy must say so and retention must be defined.
+- Merchant KYC data: founder confirmed it is deleted from Chexbill after onboarding and does not land in support tickets, error reports, or logs. Engineering should verify that Supabase backups and Sentry breadcrumbs honor this before publication.
 - Backup retention window after deletion (Supabase point-in-time backups) is undefined; needed for the retention section and DPA §9.
 
