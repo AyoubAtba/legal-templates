@@ -208,66 +208,20 @@ If you have questions about our practices or if you would like to exercise any p
 
 ## 14. State privacy rights notice
 
+If you are a California resident, the California Consumer Privacy Act (as amended by the California Privacy Rights Act) gives you the rights described in this section. Residents of other U.S. states with comprehensive privacy laws may have similar rights, and we handle their requests in the same way.
 
-Except as otherwise provided, this section applies to residents of U.S. states to the extent they have privacy laws applicable to us that grant their residents the rights described below (collectively the "**State Privacy Laws**").
+**Your rights.** Subject to certain exceptions, you can ask us to:
 
-This section describes how we collect, use, and share Personal Information of residents of these states and the rights these users may have with respect to their Personal Information. Please note that not all rights listed below may be afforded to all users and that if you are not a resident of one of these states listed above, you may not be able to exercise these rights. In addition, **we may not be able to process your request if you do not provide us with sufficient detail to allow us to confirm your identity or understand and respond to it. We will verify your identity by matching your request to the email address associated with your account and, where necessary, by requesting additional information from you.**
+- **Know and access** the categories and specific pieces of personal information we have collected about you, the sources we collected it from, and the purposes for which we use it. The categories we have collected in the past 12 months, their sources, our purposes, and the parties we share them with are described in the Personal information we collect, How we use your personal information, and How we share your personal information sections above.
+- **Delete** the personal information we have collected from you.
+- **Correct** inaccurate personal information we hold about you.
+- **Receive a copy** of your personal information in a portable format.
 
-For purposes of this section, the term "**Personal Information**" has the meaning given to "personal data", "personal information" or other similar terms and "**Sensitive Personal Information**" has the meaning given to "sensitive personal information," "sensitive data", or other similar terms in the State Privacy Laws, except that in neither case does such term include information exempted from the scope of the State Privacy Laws. In some cases, we may provide a different privacy notice to certain categories of residents of these states, such as job applicants, in which case that notice will apply instead of this section.
+**No sale or sharing.** We do not sell your personal information or share it for cross-context behavioral or targeted advertising, and we have no actual knowledge of selling or sharing the personal information of consumers under 16. We honor Global Privacy Control ("GPC") signals as valid opt-out requests. While we process certain sensitive personal information, such as the government identification numbers and financial account information you provide to use the Service, we do not use it to infer characteristics about you.
 
-**Your privacy rights.** The State Privacy Laws may provide residents with some or all of the rights listed below. However, these rights are not absolute and some State Privacy Laws do not provide these rights to their residents. Therefore, we may decline your request in certain cases as permitted by law.
+**Non-discrimination.** We will not discriminate against you for exercising your privacy rights.
 
-- **Information.** You can request the following information about how we have collected and used your Personal Information:
-  - The categories of Personal Information that we have collected.
-  - The categories of sources from which we collected Personal Information.
-  - The business or commercial purpose for collecting and/or selling Personal Information.
-  - The categories of third parties with which we share Personal Information.
-  - The categories of Personal Information that we sold or disclosed for a business purpose.
-  - The categories of third parties to whom the Personal Information was sold or disclosed for a business purpose.
-- **Access.** You can request a copy of the Personal Information that we have collected about you.
-- **Appeal.** You can appeal our denial of any request validly submitted.
-- **Correction.** You can ask us to correct inaccurate Personal Information that we have collected about you.
-- **Deletion.** You can ask us to delete the Personal Information that we have collected from you.
-- **Opt-out.**
-  - **Targeted advertising.** We do not process your personal information for targeted advertising purposes.
-  - **Profiling/automated decision-making.** We do not use your Personal Information to engage in profiling or to perform automated decision-making that results in significant financial impacts, significant impacts on housing, education, employment, health care, or criminal justice, or similarly significant impacts.
-  - **Sales of personal data.** We do not sell your Personal Information within the meaning of State Privacy Laws.
-- **Consumers under 16.** We do not have actual knowledge that we collect, sell or share the personal information of consumers under 16 years of age.
-- **Sensitive Personal Information.** While we process certain categories of Sensitive Personal Information as described in this Privacy Policy (such as government identification numbers and financial account information that you provide to use the Service), we do not process Sensitive Personal Information for the purpose of inferring characteristics about consumers under the CCPA.
-- **Nondiscrimination.** You are entitled to exercise the rights described above free from discrimination as prohibited by the State Privacy Laws.
-
-**Exercising your right to opt-out of the "sale" or "sharing" of your Personal Information.** We do not sell your Personal Information, and we do not share it for cross-context behavioral or targeted advertising. We honor Global Privacy Control ("GPC") signals as valid opt-out requests for the sale or sharing of Personal Information, as required by applicable law. When we detect a GPC signal from your browser, we will treat it as a request to opt out of the sale or sharing of your Personal Information. For more information about GPC, visit https://globalprivacycontrol.org/.
-
-**Exercising other state privacy rights.** You may submit requests to exercise any of the other state privacy rights listed above through your account settings or via email to privacy@chexbill.com.
-
-**Verification of Identity; Authorized agents.** We may need to verify your identity in order to process your information/know, access, appeal, correction, or deletion requests and reserve the right to confirm your residency. To verify your identity, we may require government identification, a declaration under penalty of perjury, or other information, where permitted by law.
-
-Under some State Privacy Laws, you may enable an authorized agent to make a request on your behalf. However, we may need to verify your authorized agent's identity and authority to act on your behalf. We may require a copy of a valid power of attorney given to your authorized agent pursuant to applicable law. If you have not provided your agent with such a power of attorney, we may ask you to take additional steps permitted by law to verify that your request is authorized, such as by providing your agent with written and signed permission to exercise your State Privacy Laws rights on your behalf, the information we request to verify your identity, and confirmation that you have given the authorized agent permission to submit the request.
-
-**Information practices.** The following describes our practices currently and during the past 12 months:
-
-- **Sources and purposes.** We collect all categories of personal information from the sources and use them for the business/commercial purposes described above in the Privacy Policy.
-- **Retention.** The criteria for deciding how long to retain personal information is generally based on whether such period is sufficient to fulfill the purposes for which we collected it as described in this notice, including complying with our legal obligations.
-- **Deidentification.** We do not attempt to reidentify deidentified information derived from personal information, except for the purpose of testing whether our deidentification processes comply with applicable law.
-
-**Personal information that we collect, use and disclose.** We have summarized the Personal Information we collect, the purposes for which we collect it and the third parties to whom we may disclose it by reference below to both the categories defined in the "Personal information we collect" section of this Privacy Policy above and the categories of Personal Information specified in the CCPA (Cal. Civ. Code §1798.140). This chart describes our practices currently and during the 12 months preceding the effective date of this Privacy Policy. Information you voluntarily provide to us, such as in free-form webforms, may contain other categories of personal information not described below.
-
-| Personal Information ("PI") we collect | CCPA statutory category | Purposes | Categories of third parties to whom we "disclose" PI for a business purpose | Categories of third parties to whom we "sell" or "share" PI |
-| --- | --- | --- | --- | --- |
-| Contact data; Profile data | Identifiers; Personal information categories listed in the California Customer Records statute (Cal. Civ. Code § 1798.80(e)); Professional or employment-related information | Service delivery and operations; Service personalization; Service improvement and analytics; Direct marketing; Compliance and protection | Service providers; Payment processors; Linked third-party services; Professional advisors; Authorities and others; Business transferees | None |
-| Communications data; Marketing data | Identifiers; Internet or other electronic network activity information | Service delivery and operations; Service personalization; Direct marketing; Compliance and protection | Service providers; Professional advisors; Authorities and others; Business transferees | None |
-| Transactional data; Payment data | Commercial information; Personal information categories listed in the California Customer Records statute | Service delivery and operations; Compliance and protection | Service providers; Payment processors; Professional advisors; Authorities and others; Business transferees | None |
-| User-generated content and input data | Commercial information; Personal information categories listed in the California Customer Records statute | Service delivery and operations; Service improvement and analytics; Compliance and protection | Service providers (including AI providers for document data extraction and tax-form filing services); Third parties designated by you; Professional advisors; Authorities and others; Business transferees | None |
-| Financial data; Government-issued identification number data; Chexbill Payments application data | Personal information categories listed in the California Customer Records statute; Sensitive personal information (government identification numbers; financial account information) | Service delivery and operations (including facilitating payments and merchant underwriting); Compliance and protection | Service providers; Payment processors; Bank-connection services; Third parties designated by you (tax authorities via our filing provider); Professional advisors; Authorities and others; Business transferees | None |
-| Device data; Online activity data; Communication interaction data | Identifiers; Internet or other electronic network activity information; Geolocation data (general location only) | Service delivery and operations; Service personalization; Service improvement and analytics; Direct marketing; Compliance and protection | Service providers; Professional advisors; Authorities and others; Business transferees | None |
-
-**Additional information for California residents.**
-
-**Shine the light law.** Under California's Shine the Light law (California Civil Code Section 1798.83), California residents may ask companies with whom they have formed a business relationship primarily for personal, family or household purposes to provide the names of third parties to which they have disclosed certain personal information (as defined under the Shine the Light law) during the preceding calendar year for their own direct marketing purposes, and the categories of personal information disclosed. You may send us requests for this information to privacy@chexbill.com. In your request, you must include the statement "Shine the Light Request," and provide your first and last name and mailing address and certify that you are a California resident. We reserve the right to require additional information to confirm your identity and California residency. Please note that we will not accept requests via telephone, mail, or facsimile, and we are not responsible for notices that are not labeled or sent properly, or that do not have complete information.
-
-**Additional information for Nevada residents.** Nevada residents have the right to opt-out of the sale of certain personal information for monetary consideration. While we do not currently engage in such sales, if you are a Nevada resident and would like to make a request to opt out of any potential future sales, please email privacy@chexbill.com.
-
-**Contact Us.** If you have questions or concerns about our privacy policies or information practices, please contact us using the contact details set forth in the How to contact us section above.
+**How to make a request.** Email privacy@chexbill.com or use your account settings. We will verify your identity by matching your request to the email address associated with your account and, where necessary, by requesting additional information from you. We may decline a request in certain cases as permitted by law.
 
 **Related policies**
 
