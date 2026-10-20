@@ -13,14 +13,20 @@ Requires python-docx (see scripts/requirements.txt).
 """
 
 import datetime
+import io
 import re
 import sys
+import zipfile
 from pathlib import Path
 
 from docx import Document
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "output" / "docx"
+
+# Fixed timestamp for document metadata and zip entries, so that rebuilding
+# unchanged Markdown yields identical bytes.
+FIXED_TIME = datetime.datetime(2026, 1, 1)
 
 INLINE_RE = re.compile(r"(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`)")
 
@@ -112,22 +118,37 @@ def convert(md_path: Path, docx_path: Path):
     if table_rows:
         flush_table(doc, table_rows)
 
-    # Fixed metadata so that rebuilding unchanged Markdown yields identical bytes.
-    fixed = datetime.datetime(2026, 1, 1)
     props = doc.core_properties
     props.author = "Chexbill LLC"
     props.last_modified_by = "Chexbill LLC"
-    props.created = fixed
-    props.modified = fixed
+    props.created = FIXED_TIME
+    props.modified = FIXED_TIME
     props.revision = 1
     props.title = md_path.stem
 
     docx_path.parent.mkdir(parents=True, exist_ok=True)
-    doc.save(docx_path)
+    save_reproducibly(doc, docx_path)
+
+
+def save_reproducibly(doc, docx_path):
+    """Save doc with fixed zip entry timestamps and attributes.
+
+    python-docx stamps each zip entry with the current time, so an unchanged
+    document would otherwise produce different bytes on every build.
+    """
+    buf = io.BytesIO()
+    doc.save(buf)
+    with zipfile.ZipFile(buf) as src, zipfile.ZipFile(docx_path, "w") as dst:
+        for entry in src.infolist():
+            info = zipfile.ZipInfo(entry.filename, date_time=FIXED_TIME.timetuple()[:6])
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.create_system = 3  # Unix, regardless of the build platform
+            info.external_attr = 0o644 << 16
+            dst.writestr(info, src.read(entry))
 
 
 def main(argv):
-    sources = [Path(a) for a in argv] or sorted((ROOT / "output").glob("*.md"))
+    sources = [Path(a).resolve() for a in argv] or sorted((ROOT / "output").glob("*.md"))
     for src in sources:
         dest = OUT_DIR / (src.stem + ".docx")
         convert(src, dest)
