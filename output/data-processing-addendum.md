@@ -21,11 +21,11 @@ This DPA applies for as long as Chexbill Processes Personal Data, even after the
 
 ## 3. Instructions
 
-Chexbill will Process Personal Data only on Customer's documented instructions. Customer instructs Chexbill to Process Personal Data to provide the Service and to perform the Agreement, including this DPA. Any further instructions must be consistent with the Agreement, and instructions that go beyond the Service require a written agreement between the parties.
+Chexbill will Process Personal Data only on Customer's documented instructions. Customer instructs Chexbill to Process Personal Data to provide the Service and to perform its obligations and exercise its rights under the Agreement, including this DPA. Any further instructions must be consistent with the Agreement, and instructions that go beyond the Service require a written agreement between the parties.
 
 ## 4. Security
 
-(a) **Security Measures.** Chexbill will maintain the technical and organizational measures described in Annex 3 (the "**Security Measures**"). Chexbill may update them as long as the overall protection of Personal Data is not materially reduced.
+(a) **Security Measures.** Chexbill will maintain technical and organizational measures designed to protect Personal Data, as described in Annex 3 (the "**Security Measures**"), taking into account the state of the art, the costs of implementation, and the nature of the processing and its risks. Chexbill may update them as long as the overall protection of Personal Data is not materially reduced.
 
 (b) **Personnel.** Chexbill will ensure that personnel authorized to access Personal Data are bound by confidentiality obligations.
 
@@ -41,27 +41,27 @@ Chexbill will give Customer reasonable, technically feasible help to respond to 
 
 (a) Customer will give all notices and obtain all consents needed for Chexbill to Process Personal Data under the Agreement.
 
-(b) Customer will not submit any of the following to the Service ("**Restricted Data**"), except Permitted Sensitive Data: government identification numbers, including Social Security numbers; health information, including information subject to HIPAA, and health insurance information; biometric information; credentials for third-party or financial accounts (other than credentials for the Service); tax return data; payment card data subject to the Payment Card Industry Data Security Standard; personal data of children under 16; or any other special or sensitive category of data under Data Protection Laws. "**Permitted Sensitive Data**" means the following, submitted only through the features of the Service designed for them: (i) taxpayer identification numbers of Customer and its vendors and contractors, with related payment and information-return data, for preparing and filing information returns (such as IRS Form 1099); (ii) bank account and routing numbers of Customer or its vendors, for recording or making payments; and (iii) account and transaction data from financial accounts Customer connects to the Service. [ATTORNEY REVIEW: the template prohibited all government identification numbers and financial-account data; this carve-out exists because the Service's 1099-filing, bill-payment, and bank-feed features need them. Confirm it is narrow enough.]
+(b) Customer represents and warrants that Customer Data does not and will not contain any of the following ("**Restricted Data**"), except Permitted Sensitive Data: government identification numbers, including Social Security numbers; health information, including information subject to HIPAA, and health insurance information; biometric information; credentials for third-party or financial accounts (other than credentials for the Service); tax return data; payment card data subject to the Payment Card Industry Data Security Standard; personal data of children under 16; or any other special or sensitive category of data under Data Protection Laws. "**Permitted Sensitive Data**" means the following, submitted only through the features of the Service designed for them: (i) taxpayer identification numbers of Customer and its vendors and contractors, with related payment and information-return data, for preparing and filing information returns (such as IRS Form 1099); (ii) bank account and routing numbers of Customer or its vendors, for recording or making payments; and (iii) account and transaction data from financial accounts Customer connects to the Service. [ATTORNEY REVIEW: the template prohibited all government identification numbers and financial-account data; this carve-out exists because the Service's 1099-filing, bill-payment, and bank-feed features need them. Confirm it is narrow enough.]
 
 ## 7. Subprocessors
 
 (a) **Authorization.** Customer authorizes Chexbill to use the Subprocessors listed in Annex 4 and at https://chexbill.com/subprocessors (the "**Subprocessor Page**").
 
-(b) **Contracts.** Chexbill will bind each Subprocessor by a written contract with data protection obligations no less protective than this DPA, to the extent relevant to its services, and remains responsible for each Subprocessor's performance.
+(b) **Contracts.** Chexbill will bind each Subprocessor by a written contract with data protection obligations no less protective than this DPA, to the extent relevant to its services, and remains responsible and liable for each Subprocessor's acts and omissions as if they were its own.
 
 (c) **New Subprocessors.** Chexbill will notify Customer of a new Subprocessor by updating the Subprocessor Page and emailing Customer's Administrator. Customer may object on reasonable data protection grounds within 15 days of the notice. The parties will try in good faith to resolve the objection; if they cannot, Customer's only remedy is to terminate the Agreement, paying any amounts owed up to that date.
 
 ## 8. Audits
 
-Chexbill will make available the information reasonably needed to show that it complies with this DPA. Customer may audit Chexbill's compliance once a year, or more often if a law or regulator requires it, on at least two weeks' written notice and under an audit plan agreed in advance. Audits must take place during business hours, under a confidentiality agreement, without unreasonably disrupting Chexbill's business, and at Customer's expense, including Chexbill's reasonable costs. Chexbill may object to an auditor who is not independent or is a competitor. If a SOC 2 Type 2, ISO, or similar third-party report from the last 12 months covers the controls in question, and Chexbill confirms there have been no known material changes since, Customer will accept that report instead of an audit of those controls.
+Where Data Protection Laws require it, Chexbill will make available on request the information reasonably needed to show that it complies with this DPA. Customer may audit Chexbill's compliance once a year, or more often if a law or regulator requires it, on at least two weeks' written notice and under an audit plan agreed in advance. Audits must take place during business hours, under a confidentiality agreement, without unreasonably disrupting Chexbill's business, and at Customer's expense, including Chexbill's reasonable costs. Chexbill may object to an auditor who is not independent or is a competitor. If a SOC 2 Type 2, ISO, or similar third-party report from the last 12 months covers the controls in question, and Chexbill confirms there have been no known material changes since, Customer will accept that report instead of an audit of those controls.
 
 ## 9. Return and Deletion
 
-(a) Customer can export its Customer Data at any time before its Organization is deleted under the Agreement, whether by Customer or by Chexbill after the notice the Agreement requires (the date of deletion is the "**Cessation Date**"). After the Cessation Date, Chexbill will stop Processing Personal Data except as needed to return or delete it.
+(a) Customer can export its Customer Data at any time before its Organization is deleted under the Agreement, whether by Customer or by Chexbill after the notice the Agreement requires (the date of deletion is the "**Cessation Date**"). After the Cessation Date, Chexbill will stop Processing Personal Data except as needed to return, delete, or anonymize it, or as Section 9(c) permits.
 
 (b) Within 30 days after the Cessation Date, Customer may ask Chexbill in writing to return or delete the remaining Personal Data. Where technically feasible, Chexbill will either return a copy and then delete it or, at its option, delete it. If Customer makes no request, Chexbill will delete or anonymize the Personal Data within a commercially reasonable time after the 30-day period.
 
-(c) Copies in backups are overwritten in the ordinary course within Chexbill's backup retention period [TBD — needs attorney/founder decision: state the backup retention window] and remain protected by the Security Measures until then. Chexbill may keep Personal Data where the law requires, for no longer than required, and will protect it and use it only for that purpose.
+(c) Copies in backups are overwritten in the ordinary course within Chexbill's backup retention period [TBD — needs attorney/founder decision: state the backup retention window] and remain protected by the Security Measures until then. Chexbill may keep Personal Data where the law permits or requires, for no longer than the law requires, and will protect it and use it only for that purpose.
 
 ## 10. Artificial Intelligence
 
@@ -109,13 +109,16 @@ Where Personal Data is subject to State Privacy Laws, terms such as "business," 
 
 ## Annex 3 — Security Measures
 
+The Security Measures are designed to provide the following, taking into account the matters in Section 4(a):
+
 - A person responsible for Chexbill's information security program, and periodic risk assessments.
 - Role-based, least-privilege access with unique user accounts and multi-factor authentication where appropriate, reviewed periodically and removed promptly when a role changes.
-- Encryption of Personal Data in transit over public networks and at rest.
+- Encryption of Personal Data in transit over public networks and at rest, or materially equivalent safeguards.
 - Logical separation of each customer's data.
 - Hashed and salted password storage and industry-standard password controls.
 - Logging and monitoring of system access and activity.
-- Network protections such as firewalls and segmentation, vulnerability management, and timely patching.
+- Network protections such as firewalls, segmentation, and intrusion detection or prevention; vulnerability management, timely patching, and protection against malicious code.
+- Secure configuration and maintenance of systems, and secure disposal of systems and media.
 - Change management for material changes to systems that process Personal Data.
 - Incident response procedures.
 - Backups and disaster recovery procedures.

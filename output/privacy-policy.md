@@ -65,16 +65,17 @@ We use personal information to:
 
 ## 5. How we share personal information
 
-We do not sell personal information. We share it only with:
+We do not sell personal information. We share it as follows, or as otherwise described in this Privacy Policy or when we collect it:
 
 - **Service providers** that help us run the Service, such as hosting, database and file storage, authentication, email delivery, customer support (Zendesk), analytics, error monitoring, and tax-form filing. This includes Google, whose Gemini API extracts data from documents you upload; we use the paid tier, under which Google does not use your inputs to train its models. [ATTORNEY REVIEW: confirm against Google's current API terms at publication.]
-- **Our payment processor**, CardConnect, LLC (a Fiserv company). It collects card details directly, receives Chexbill Payments applications for underwriting and identity verification, and processes the payments you accept under your merchant agreement with it. See the Fiserv privacy notice at https://www.fiserv.com/en/about-fiserv/privacy-notice.html.
+- **Our payment processor**, CardConnect, LLC (a Fiserv company), and its sponsor bank. They collect card details directly, receive Chexbill Payments applications for underwriting and identity verification, and process the payments you accept under your merchant agreement with them. See the Fiserv privacy notice at https://www.fiserv.com/en/about-fiserv/privacy-notice.html.
 - **Plaid**, to set up and maintain bank connections you ask for.
+- **Sign-in providers.** If you log in with Google, Microsoft, or Apple, we may share information with that provider as needed for sign-in, and its own privacy policy governs how it uses that information.
 - **People you ask us to share with**, such as a tax authority when you file a form through the Service, or a customer you send an invoice or payment link to. Once you send it, we are not responsible for how the recipient uses that information.
 - **Other users in your organization**, who can see the information added to it.
 - **Professional advisors**, such as lawyers, auditors, and insurers.
-- **Authorities and others**, when we believe in good faith that the law requires it or that it is needed to protect rights, safety, or property.
-- **Buyers and investors**, in connection with a merger, acquisition, financing, sale of assets, or insolvency.
+- **Authorities and others**, as we believe in good faith is necessary or appropriate to comply with the law, protect rights, safety, or property, prevent fraud, or enforce our terms.
+- **Buyers, investors, and lenders**, and their advisers, in connection with an actual or prospective merger, acquisition, financing, sale of assets, or insolvency.
 
 ## 6. How long we keep personal information
 
