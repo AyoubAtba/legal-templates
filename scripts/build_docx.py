@@ -12,6 +12,7 @@ Usage:
 Requires python-docx (see scripts/requirements.txt).
 """
 
+import datetime
 import re
 import sys
 from pathlib import Path
@@ -110,6 +111,16 @@ def convert(md_path: Path, docx_path: Path):
     flush_para()
     if table_rows:
         flush_table(doc, table_rows)
+
+    # Fixed metadata so that rebuilding unchanged Markdown yields identical bytes.
+    fixed = datetime.datetime(2026, 1, 1)
+    props = doc.core_properties
+    props.author = "Chexbill LLC"
+    props.last_modified_by = "Chexbill LLC"
+    props.created = fixed
+    props.modified = fixed
+    props.revision = 1
+    props.title = md_path.stem
 
     docx_path.parent.mkdir(parents=True, exist_ok=True)
     doc.save(docx_path)
