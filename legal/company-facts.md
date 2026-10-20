@@ -4,7 +4,7 @@ Running record of every answer given during the legal-document interview. Read t
 
 Legend: `[CONFIRMED]` answered by founder · `[DEFAULT ACCEPTED]` founder said "yes" to a suggested default · `[TBD — needs attorney/founder decision]` unknown
 
-Last updated: 2026-10-20 (Batches 1–7 recorded)
+Last updated: 2026-10-20 (Interview complete: batches 1–8 recorded)
 
 ---
 
@@ -12,11 +12,11 @@ Last updated: 2026-10-20 (Batches 1–7 recorded)
 
 | Question | Answer | Status |
 |---|---|---|
-| Which templates are in scope for drafting? | | |
+| Which templates are in scope for drafting? | Terms of Service (adapted from Terms of Use), Privacy Policy (US), Cookie Notice, Data Processing Addendum (US). Not in scope: MSA, BAA, GDPR versions, NDAs, Advisor Agreement, Offer Letter | [CONFIRMED] |
 | Is a B2B Master Services Agreement / Order Form needed (signed enterprise contracts)? | No (self-serve only) | [CONFIRMED] |
 | Is a Data Processing Addendum needed (do business customers upload their end users' personal data)? | Yes: customers enter their clients' data (invoices) and vendors' data incl. TINs (1099 filing). Use DPA (US), with the Restricted Data warranty modified | [CONFIRMED] |
 | Is a Business Associate Agreement needed (any protected health information)? | No | [CONFIRMED] |
-| Are NDAs, Advisor Agreement, or Offer Letter wanted as part of this project? | | |
+| Are NDAs, Advisor Agreement, or Offer Letter wanted as part of this project? | Not requested | [DEFAULT ACCEPTED] |
 
 ## 1. Company identity & jurisdiction
 
@@ -145,16 +145,16 @@ Last updated: 2026-10-20 (Batches 1–7 recorded)
 
 | Fact | Answer | Status |
 |---|---|---|
-| Arbitration: JAMS (Option A) or DecisionLayer AI arbitration (Option B) or none? | | |
-| Arbitration opt-out notice address/email (template: 30 days) | | |
-| Informal dispute notice address | | |
-| Liability cap: template default = greater of $50 USD or fees paid in prior 6 months (ToS); 12 months fees (MSA) | | |
-| Warranty disclaimer period where law requires warranties (template: 90 days) | | |
-| Class-action waiver and jury-trial waiver (template: yes) | | |
-| Batch arbitration clause (template: 100+ demands) | | |
-| Governing law and venue (see §1) | | |
-| Indemnification by users (template: yes, broad) | | |
-| Insurance / other coverage facts the attorney should know | | |
+| Arbitration: JAMS (Option A) or DecisionLayer AI arbitration (Option B) or none? | Option A (JAMS). Option B deleted; attorney may propose DecisionLayer if desired | [DEFAULT ACCEPTED] |
+| Arbitration opt-out notice address/email (template: 30 days) | legal@chexbill.com or 257 Chapman Rd #208, Newark, DE 19702; 30 days | [DEFAULT ACCEPTED] |
+| Informal dispute notice address | Same: legal@chexbill.com or the Newark, DE address; 45-day meet, 60-day window as drafted | [DEFAULT ACCEPTED] |
+| Liability cap: template default = greater of $50 USD or fees paid in prior 6 months (ToS); 12 months fees (MSA) | Greater of $100 USD or fees paid in the 12 months before the claim. Exclusions: lost profits, lost data, tax penalties, interest, chargebacks; customer responsible for backups/exports and reviewing reports before filing | [DEFAULT ACCEPTED] |
+| Warranty disclaimer period where law requires warranties (template: 90 days) | Keep: "as is", no uptime guarantee, 90-day limit | [DEFAULT ACCEPTED] |
+| Class-action waiver and jury-trial waiver (template: yes) | Keep | [DEFAULT ACCEPTED] |
+| Batch arbitration clause (template: 100+ demands) | Keep; arbitration in the county where the customer lives; fallback court Delaware | [DEFAULT ACCEPTED] |
+| Governing law and venue (see §1) | Delaware law; New Castle County, Delaware | [CONFIRMED] |
+| Indemnification by users (template: yes, broad) | Keep, plus for Chexbill Payments: the merchant's transactions, chargebacks, and compliance with card-network rules | [DEFAULT ACCEPTED] |
+| Insurance / other coverage facts the attorney should know | None provided. State consumer notices (CA, CO, CT, VA, NV) kept for the attorney to prune; WCAG 2.1 AA "endeavor to conform" commitment kept | [DEFAULT ACCEPTED] |
 
 ## 9. Open items for the attorney
 
